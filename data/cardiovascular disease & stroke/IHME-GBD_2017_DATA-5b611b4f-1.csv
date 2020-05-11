@@ -1,0 +1,505 @@
+measure_id,measure_name,location_id,location_name,sex_id,sex_name,age_id,age_name,cause_id,cause_name,metric_id,metric_name,year,val,upper,lower
+2,DALYs (Disability-Adjusted Life Years),1,Global,3,Both,22,All Ages,491,Cardiovascular diseases,1,Number,1990,266817904.11309168,273590215.9919927,260266782.37159267
+2,DALYs (Disability-Adjusted Life Years),1,Global,3,Both,22,All Ages,491,Cardiovascular diseases,2,Percent,1990,0.104214284534823,0.10877863110645765,0.09930139025850113
+2,DALYs (Disability-Adjusted Life Years),1,Global,3,Both,22,All Ages,491,Cardiovascular diseases,3,Rate,1990,4945.919885840551,5071.456109154761,4824.4837947973165
+2,DALYs (Disability-Adjusted Life Years),1,Global,3,Both,22,All Ages,494,Stroke,1,Number,1990,98876267.26034671,102509079.6038315,95626453.22526842
+2,DALYs (Disability-Adjusted Life Years),1,Global,3,Both,22,All Ages,494,Stroke,2,Percent,1990,0.038619228214219384,0.0406203880085998,0.03668941810766695
+2,DALYs (Disability-Adjusted Life Years),1,Global,3,Both,22,All Ages,494,Stroke,3,Rate,1990,1832.838385063376,1900.1786891966128,1772.5976005672778
+2,DALYs (Disability-Adjusted Life Years),1,Global,3,Both,22,All Ages,491,Cardiovascular diseases,1,Number,1991,270278106.69887304,276977249.2717202,263635514.49745473
+2,DALYs (Disability-Adjusted Life Years),1,Global,3,Both,22,All Ages,491,Cardiovascular diseases,2,Percent,1991,0.10486629911466606,0.10943120853414735,0.09993447853375718
+2,DALYs (Disability-Adjusted Life Years),1,Global,3,Both,22,All Ages,491,Cardiovascular diseases,3,Rate,1991,4933.697645257647,5055.984812133967,4812.442757457736
+2,DALYs (Disability-Adjusted Life Years),1,Global,3,Both,22,All Ages,494,Stroke,1,Number,1991,100032330.18945576,103604512.64419013,96841643.18104815
+2,DALYs (Disability-Adjusted Life Years),1,Global,3,Both,22,All Ages,494,Stroke,2,Percent,1991,0.03881184700818375,0.04084620034253094,0.0368214957482679
+2,DALYs (Disability-Adjusted Life Years),1,Global,3,Both,22,All Ages,494,Stroke,3,Rate,1991,1826.005361415428,1891.2125229595529,1767.7620757405234
+2,DALYs (Disability-Adjusted Life Years),1,Global,3,Both,22,All Ages,491,Cardiovascular diseases,1,Number,1993,282650866.2762606,289309203.1982697,276109344.1179702
+2,DALYs (Disability-Adjusted Life Years),1,Global,3,Both,22,All Ages,491,Cardiovascular diseases,2,Percent,1993,0.10891364280336888,0.11376124679264765,0.10363669964989121
+2,DALYs (Disability-Adjusted Life Years),1,Global,3,Both,22,All Ages,491,Cardiovascular diseases,3,Rate,1993,5011.695213426355,5129.7544846432975,4895.707190035038
+2,DALYs (Disability-Adjusted Life Years),1,Global,3,Both,22,All Ages,494,Stroke,1,Number,1993,104481280.26335165,108020097.57741447,101266832.96104112
+2,DALYs (Disability-Adjusted Life Years),1,Global,3,Both,22,All Ages,494,Stroke,2,Percent,1993,0.04025950566435024,0.04237549769709716,0.03816897388468365
+2,DALYs (Disability-Adjusted Life Years),1,Global,3,Both,22,All Ages,494,Stroke,3,Rate,1993,1852.5622761640745,1915.3092050085963,1795.5667665764436
+2,DALYs (Disability-Adjusted Life Years),1,Global,3,Both,22,All Ages,491,Cardiovascular diseases,1,Number,1992,275388778.9123482,281904651.7821884,268830477.39136934
+2,DALYs (Disability-Adjusted Life Years),1,Global,3,Both,22,All Ages,491,Cardiovascular diseases,2,Percent,1992,0.10671180631775826,0.11143724326934518,0.10164405250483269
+2,DALYs (Disability-Adjusted Life Years),1,Global,3,Both,22,All Ages,491,Cardiovascular diseases,3,Rate,1992,4952.525088541082,5069.704967797887,4834.5821827003065
+2,DALYs (Disability-Adjusted Life Years),1,Global,3,Both,22,All Ages,494,Stroke,1,Number,1992,101914265.10636756,105506804.575402,98694180.46553399
+2,DALYs (Disability-Adjusted Life Years),1,Global,3,Both,22,All Ages,494,Stroke,2,Percent,1992,0.03949114710849667,0.04156904453336423,0.037443562806501476
+2,DALYs (Disability-Adjusted Life Years),1,Global,3,Both,22,All Ages,494,Stroke,3,Rate,1992,1832.8014555021525,1897.4088150403204,1774.8922333692137
+2,DALYs (Disability-Adjusted Life Years),1,Global,3,Both,22,All Ages,491,Cardiovascular diseases,1,Number,1995,289481726.24904764,296205012.2870044,282860994.3510917
+2,DALYs (Disability-Adjusted Life Years),1,Global,3,Both,22,All Ages,491,Cardiovascular diseases,2,Percent,1995,0.11097087264585762,0.11603957741719263,0.10536364127652033
+2,DALYs (Disability-Adjusted Life Years),1,Global,3,Both,22,All Ages,491,Cardiovascular diseases,3,Rate,1995,4994.567304768702,5110.5673889912805,4880.3366363958
+2,DALYs (Disability-Adjusted Life Years),1,Global,3,Both,22,All Ages,494,Stroke,1,Number,1995,107432814.10554087,110814200.76396379,104038977.98672141
+2,DALYs (Disability-Adjusted Life Years),1,Global,3,Both,22,All Ages,494,Stroke,2,Percent,1995,0.04118340019905463,0.043322876110010775,0.03900499651147217
+2,DALYs (Disability-Adjusted Life Years),1,Global,3,Both,22,All Ages,494,Stroke,3,Rate,1995,1853.5899579692164,1911.9306465776933,1795.034472839161
+2,DALYs (Disability-Adjusted Life Years),1,Global,3,Both,22,All Ages,491,Cardiovascular diseases,1,Number,1998,292342961.8824862,299212781.3011181,285332824.94752264
+2,DALYs (Disability-Adjusted Life Years),1,Global,3,Both,22,All Ages,491,Cardiovascular diseases,2,Percent,1998,0.11208584826879645,0.11760421397262633,0.10640470650789678
+2,DALYs (Disability-Adjusted Life Years),1,Global,3,Both,22,All Ages,491,Cardiovascular diseases,3,Rate,1998,4846.988334368435,4960.888577996366,4730.761654145663
+2,DALYs (Disability-Adjusted Life Years),1,Global,3,Both,22,All Ages,494,Stroke,1,Number,1998,109476450.99769025,112911049.45258752,105850938.190557
+2,DALYs (Disability-Adjusted Life Years),1,Global,3,Both,22,All Ages,494,Stroke,2,Percent,1998,0.04197355125509245,0.04418369183573157,0.039706895218720575
+2,DALYs (Disability-Adjusted Life Years),1,Global,3,Both,22,All Ages,494,Stroke,3,Rate,1998,1815.0978475998375,1872.042808877266,1754.987564221981
+2,DALYs (Disability-Adjusted Life Years),1,Global,3,Both,22,All Ages,491,Cardiovascular diseases,1,Number,1996,289770111.4229129,296409416.13368076,282986927.2651366
+2,DALYs (Disability-Adjusted Life Years),1,Global,3,Both,22,All Ages,491,Cardiovascular diseases,2,Percent,1996,0.1113248391103985,0.11642400284342688,0.10572690244861256
+2,DALYs (Disability-Adjusted Life Years),1,Global,3,Both,22,All Ages,491,Cardiovascular diseases,3,Rate,1996,4933.070260081837,5046.098330697819,4817.592773901256
+2,DALYs (Disability-Adjusted Life Years),1,Global,3,Both,22,All Ages,494,Stroke,1,Number,1996,107976958.15949279,111371900.25999619,104500359.3018043
+2,DALYs (Disability-Adjusted Life Years),1,Global,3,Both,22,All Ages,494,Stroke,2,Percent,1996,0.041482692059467786,0.043623016541696986,0.03930951924825606
+2,DALYs (Disability-Adjusted Life Years),1,Global,3,Both,22,All Ages,494,Stroke,3,Rate,1996,1838.2086353043244,1896.004409438705,1779.0227298053717
+2,DALYs (Disability-Adjusted Life Years),1,Global,3,Both,22,All Ages,491,Cardiovascular diseases,1,Number,1994,287531420.5158701,294326635.2601545,280871124.9723062
+2,DALYs (Disability-Adjusted Life Years),1,Global,3,Both,22,All Ages,491,Cardiovascular diseases,2,Percent,1994,0.10918252454475291,0.11394900387396634,0.10384023396066934
+2,DALYs (Disability-Adjusted Life Years),1,Global,3,Both,22,All Ages,491,Cardiovascular diseases,3,Rate,1994,5028.809439880787,5147.655025489362,4912.323537081785
+2,DALYs (Disability-Adjusted Life Years),1,Global,3,Both,22,All Ages,494,Stroke,1,Number,1994,106386116.9063686,109876809.40491277,103043403.39682542
+2,DALYs (Disability-Adjusted Life Years),1,Global,3,Both,22,All Ages,494,Stroke,2,Percent,1994,0.04039712326935372,0.04247463836793159,0.03832224922326634
+2,DALYs (Disability-Adjusted Life Years),1,Global,3,Both,22,All Ages,494,Stroke,3,Rate,1994,1860.6505960675645,1921.701410468668,1802.1878749449525
+2,DALYs (Disability-Adjusted Life Years),1,Global,3,Both,22,All Ages,491,Cardiovascular diseases,1,Number,1997,291257122.0239268,298048436.0419233,284300051.50143087
+2,DALYs (Disability-Adjusted Life Years),1,Global,3,Both,22,All Ages,491,Cardiovascular diseases,2,Percent,1997,0.11173591777356405,0.11705226901586854,0.10610200090566754
+2,DALYs (Disability-Adjusted Life Years),1,Global,3,Both,22,All Ages,491,Cardiovascular diseases,3,Rate,1997,4892.753162157184,5006.838692172223,4775.883131437398
+2,DALYs (Disability-Adjusted Life Years),1,Global,3,Both,22,All Ages,494,Stroke,1,Number,1997,108764859.48615,112134231.78068067,105225124.47810732
+2,DALYs (Disability-Adjusted Life Years),1,Global,3,Both,22,All Ages,494,Stroke,2,Percent,1997,0.04172553779726651,0.04388257698082785,0.03951689878182245
+2,DALYs (Disability-Adjusted Life Years),1,Global,3,Both,22,All Ages,494,Stroke,3,Rate,1997,1827.1127809150196,1883.7139957934512,1767.6496868164093
+2,DALYs (Disability-Adjusted Life Years),1,Global,3,Both,22,All Ages,491,Cardiovascular diseases,1,Number,1999,296328650.1326232,303452785.4995054,289232441.5833376
+2,DALYs (Disability-Adjusted Life Years),1,Global,3,Both,22,All Ages,491,Cardiovascular diseases,2,Percent,1999,0.11330411776186958,0.11870173022117993,0.10748966414356134
+2,DALYs (Disability-Adjusted Life Years),1,Global,3,Both,22,All Ages,491,Cardiovascular diseases,3,Rate,1999,4849.913208879462,4966.511580998471,4733.771905766378
+2,DALYs (Disability-Adjusted Life Years),1,Global,3,Both,22,All Ages,494,Stroke,1,Number,1999,110925574.28476578,114291868.06299824,107308497.51563972
+2,DALYs (Disability-Adjusted Life Years),1,Global,3,Both,22,All Ages,494,Stroke,2,Percent,1999,0.04241311485265966,0.04461647809397647,0.04015080409806783
+2,DALYs (Disability-Adjusted Life Years),1,Global,3,Both,22,All Ages,494,Stroke,3,Rate,1999,1815.4822616221904,1870.5772807933417,1756.2827600138776
+2,DALYs (Disability-Adjusted Life Years),1,Global,3,Both,22,All Ages,491,Cardiovascular diseases,1,Number,2000,300062589.62653273,307280439.7524996,292788921.104424
+2,DALYs (Disability-Adjusted Life Years),1,Global,3,Both,22,All Ages,491,Cardiovascular diseases,2,Percent,2000,0.11487767003816901,0.12050382304718839,0.1088560286597952
+2,DALYs (Disability-Adjusted Life Years),1,Global,3,Both,22,All Ages,491,Cardiovascular diseases,3,Rate,2000,4848.240877336849,4964.862799685641,4730.717073049959
+2,DALYs (Disability-Adjusted Life Years),1,Global,3,Both,22,All Ages,494,Stroke,1,Number,2000,112466675.17767625,115775952.76437277,108776536.43745433
+2,DALYs (Disability-Adjusted Life Years),1,Global,3,Both,22,All Ages,494,Stroke,2,Percent,2000,0.04305698088044,0.04534038475426555,0.040733380180094675
+2,DALYs (Disability-Adjusted Life Years),1,Global,3,Both,22,All Ages,494,Stroke,3,Rate,2000,1817.1726525896809,1870.642080052284,1757.5494869506203
+2,DALYs (Disability-Adjusted Life Years),1,Global,3,Both,22,All Ages,491,Cardiovascular diseases,1,Number,2001,302245240.48462814,309418819.5578598,294905450.5202967
+2,DALYs (Disability-Adjusted Life Years),1,Global,3,Both,22,All Ages,491,Cardiovascular diseases,2,Percent,2001,0.1162752922245912,0.12195486970439669,0.11000816645743909
+2,DALYs (Disability-Adjusted Life Years),1,Global,3,Both,22,All Ages,491,Cardiovascular diseases,3,Rate,2001,4821.422739174792,4935.855830691768,4704.338247858894
+2,DALYs (Disability-Adjusted Life Years),1,Global,3,Both,22,All Ages,494,Stroke,1,Number,2001,113262471.01905228,116673761.11226131,109633444.50074206
+2,DALYs (Disability-Adjusted Life Years),1,Global,3,Both,22,All Ages,494,Stroke,2,Percent,2001,0.04357223107210445,0.045948927014257915,0.04111868644154033
+2,DALYs (Disability-Adjusted Life Years),1,Global,3,Both,22,All Ages,494,Stroke,3,Rate,2001,1806.7654345549834,1861.182409323379,1748.8751235333975
+2,DALYs (Disability-Adjusted Life Years),1,Global,3,Both,22,All Ages,491,Cardiovascular diseases,1,Number,2003,310022282.8245105,317299077.510539,302531025.98935384
+2,DALYs (Disability-Adjusted Life Years),1,Global,3,Both,22,All Ages,491,Cardiovascular diseases,2,Percent,2003,0.12014985983100127,0.12630188802465098,0.11331704540626995
+2,DALYs (Disability-Adjusted Life Years),1,Global,3,Both,22,All Ages,491,Cardiovascular diseases,3,Rate,2003,4820.296055510849,4933.43729298016,4703.820312398655
+2,DALYs (Disability-Adjusted Life Years),1,Global,3,Both,22,All Ages,494,Stroke,1,Number,2003,115716026.10208902,119146087.80492716,111970751.61878453
+2,DALYs (Disability-Adjusted Life Years),1,Global,3,Both,22,All Ages,494,Stroke,2,Percent,2003,0.0448455314888838,0.04740851874897752,0.042184500719103846
+2,DALYs (Disability-Adjusted Life Years),1,Global,3,Both,22,All Ages,494,Stroke,3,Rate,2003,1799.1787528866992,1852.510122315098,1740.9463843801511
+2,DALYs (Disability-Adjusted Life Years),1,Global,3,Both,22,All Ages,491,Cardiovascular diseases,1,Number,2002,306516758.4695121,313713643.8920688,299153994.0611406
+2,DALYs (Disability-Adjusted Life Years),1,Global,3,Both,22,All Ages,491,Cardiovascular diseases,2,Percent,2002,0.1182687119943868,0.12414692478221095,0.1117193033103669
+2,DALYs (Disability-Adjusted Life Years),1,Global,3,Both,22,All Ages,491,Cardiovascular diseases,3,Rate,2002,4827.353983534015,4940.698238142113,4711.397289113636
+2,DALYs (Disability-Adjusted Life Years),1,Global,3,Both,22,All Ages,494,Stroke,1,Number,2002,114698260.8431842,118107319.97781634,111057816.93240564
+2,DALYs (Disability-Adjusted Life Years),1,Global,3,Both,22,All Ages,494,Stroke,2,Percent,2002,0.044255588480212465,0.0467434204708312,0.04176216279030797
+2,DALYs (Disability-Adjusted Life Years),1,Global,3,Both,22,All Ages,494,Stroke,3,Rate,2002,1806.3909756531043,1860.0804876910129,1749.057368504583
+2,DALYs (Disability-Adjusted Life Years),1,Global,3,Both,22,All Ages,491,Cardiovascular diseases,1,Number,2004,310111771.10354066,317596672.34617084,302659801.96053183
+2,DALYs (Disability-Adjusted Life Years),1,Global,3,Both,22,All Ages,491,Cardiovascular diseases,2,Percent,2004,0.12016906353491333,0.12633974214542557,0.11331642259712102
+2,DALYs (Disability-Adjusted Life Years),1,Global,3,Both,22,All Ages,491,Cardiovascular diseases,3,Rate,2004,4760.641362780252,4875.544871038547,4646.24340745554
+2,DALYs (Disability-Adjusted Life Years),1,Global,3,Both,22,All Ages,494,Stroke,1,Number,2004,115494737.83177628,119001960.72845629,111688052.23474048
+2,DALYs (Disability-Adjusted Life Years),1,Global,3,Both,22,All Ages,494,Stroke,2,Percent,2004,0.04475396607297115,0.04727572422913829,0.042046169200228294
+2,DALYs (Disability-Adjusted Life Years),1,Global,3,Both,22,All Ages,494,Stroke,3,Rate,2004,1773.0027600978658,1826.8434457674537,1714.564910918972
+2,DALYs (Disability-Adjusted Life Years),1,Global,3,Both,22,All Ages,491,Cardiovascular diseases,1,Number,2007,314337497.84883946,322477365.536278,306378011.9950537
+2,DALYs (Disability-Adjusted Life Years),1,Global,3,Both,22,All Ages,491,Cardiovascular diseases,2,Percent,2007,0.12402566604874628,0.13078574311045862,0.11642663230870624
+2,DALYs (Disability-Adjusted Life Years),1,Global,3,Both,22,All Ages,491,Cardiovascular diseases,3,Rate,2007,4644.2955214294025,4764.561004563006,4526.6951563549355
+2,DALYs (Disability-Adjusted Life Years),1,Global,3,Both,22,All Ages,494,Stroke,1,Number,2007,114177843.67084399,117777114.90125486,110445069.79229768
+2,DALYs (Disability-Adjusted Life Years),1,Global,3,Both,22,All Ages,494,Stroke,2,Percent,2007,0.04504937143054724,0.04765286392388216,0.04216550626161424
+2,DALYs (Disability-Adjusted Life Years),1,Global,3,Both,22,All Ages,494,Stroke,3,Rate,2007,1686.962744298389,1740.141507157427,1631.8114972302521
+2,DALYs (Disability-Adjusted Life Years),1,Global,3,Both,22,All Ages,491,Cardiovascular diseases,1,Number,2005,314086221.1880971,321531381.8827747,306473866.1186778
+2,DALYs (Disability-Adjusted Life Years),1,Global,3,Both,22,All Ages,491,Cardiovascular diseases,2,Percent,2005,0.12226794696463197,0.1287821237545888,0.11518679091720116
+2,DALYs (Disability-Adjusted Life Years),1,Global,3,Both,22,All Ages,491,Cardiovascular diseases,3,Rate,2005,4760.624059872457,4873.470815768422,4645.243128615155
+2,DALYs (Disability-Adjusted Life Years),1,Global,3,Both,22,All Ages,494,Stroke,1,Number,2005,115870089.44274135,119410029.73990908,112061082.70129743
+2,DALYs (Disability-Adjusted Life Years),1,Global,3,Both,22,All Ages,494,Stroke,2,Percent,2005,0.04510543292902324,0.04767468556009077,0.042329905536661036
+2,DALYs (Disability-Adjusted Life Years),1,Global,3,Both,22,All Ages,494,Stroke,3,Rate,2005,1756.2500307529965,1809.9051222927064,1698.5166826648776
+2,DALYs (Disability-Adjusted Life Years),1,Global,3,Both,22,All Ages,491,Cardiovascular diseases,1,Number,2006,312386137.3085327,320152743.75123847,304537856.7483758
+2,DALYs (Disability-Adjusted Life Years),1,Global,3,Both,22,All Ages,491,Cardiovascular diseases,2,Percent,2006,0.12267085266510935,0.12923261856054238,0.11542893412233196
+2,DALYs (Disability-Adjusted Life Years),1,Global,3,Both,22,All Ages,491,Cardiovascular diseases,3,Rate,2006,4675.2439290119155,4791.480775925586,4557.784728170952
+2,DALYs (Disability-Adjusted Life Years),1,Global,3,Both,22,All Ages,494,Stroke,1,Number,2006,114181455.79469572,117738546.63265401,110469414.33954038
+2,DALYs (Disability-Adjusted Life Years),1,Global,3,Both,22,All Ages,494,Stroke,2,Percent,2006,0.04483713252455077,0.04743924499170513,0.042040871807772565
+2,DALYs (Disability-Adjusted Life Years),1,Global,3,Both,22,All Ages,494,Stroke,3,Rate,2006,1708.866349221676,1762.1026019196731,1653.311069378016
+2,DALYs (Disability-Adjusted Life Years),1,Global,3,Both,22,All Ages,491,Cardiovascular diseases,1,Number,2009,323458241.31274766,331846803.6077003,315330543.462639
+2,DALYs (Disability-Adjusted Life Years),1,Global,3,Both,22,All Ages,491,Cardiovascular diseases,2,Percent,2009,0.12797345824182288,0.13514078211177297,0.11985861405516207
+2,DALYs (Disability-Adjusted Life Years),1,Global,3,Both,22,All Ages,491,Cardiovascular diseases,3,Rate,2009,4656.895162530128,4777.667027897986,4539.879016498215
+2,DALYs (Disability-Adjusted Life Years),1,Global,3,Both,22,All Ages,494,Stroke,1,Number,2009,116711575.09823024,120569244.85505371,112724110.92975192
+2,DALYs (Disability-Adjusted Life Years),1,Global,3,Both,22,All Ages,494,Stroke,2,Percent,2009,0.04617474847820194,0.0488405359177988,0.043139705428101936
+2,DALYs (Disability-Adjusted Life Years),1,Global,3,Both,22,All Ages,494,Stroke,3,Rate,2009,1680.320672246232,1735.8603411576821,1622.9123263602644
+2,DALYs (Disability-Adjusted Life Years),1,Global,3,Both,22,All Ages,491,Cardiovascular diseases,1,Number,2008,319722304.8571743,327810485.3969623,311688098.73112434
+2,DALYs (Disability-Adjusted Life Years),1,Global,3,Both,22,All Ages,491,Cardiovascular diseases,2,Percent,2008,0.12567888170624775,0.13263288184867938,0.11787607781188093
+2,DALYs (Disability-Adjusted Life Years),1,Global,3,Both,22,All Ages,491,Cardiovascular diseases,3,Rate,2008,4662.976520899679,4780.93825012804,4545.801979240551
+2,DALYs (Disability-Adjusted Life Years),1,Global,3,Both,22,All Ages,494,Stroke,1,Number,2008,115586965.78647798,119392542.00298701,111795218.4205948
+2,DALYs (Disability-Adjusted Life Years),1,Global,3,Both,22,All Ages,494,Stroke,2,Percent,2008,0.045434781361828075,0.04805627346589902,0.04251081058766518
+2,DALYs (Disability-Adjusted Life Years),1,Global,3,Both,22,All Ages,494,Stroke,3,Rate,2008,1685.7732457081877,1741.2755121328057,1630.4726655744528
+2,DALYs (Disability-Adjusted Life Years),1,Global,3,Both,22,All Ages,491,Cardiovascular diseases,1,Number,2010,329069459.5459785,337677774.9631558,320701750.31985974
+2,DALYs (Disability-Adjusted Life Years),1,Global,3,Both,22,All Ages,491,Cardiovascular diseases,2,Percent,2010,0.12956127904511017,0.13699730196759277,0.12139208892269521
+2,DALYs (Disability-Adjusted Life Years),1,Global,3,Both,22,All Ages,491,Cardiovascular diseases,3,Rate,2010,4678.984184811654,4801.3843970659755,4560.00511216805
+2,DALYs (Disability-Adjusted Life Years),1,Global,3,Both,22,All Ages,494,Stroke,1,Number,2010,118391191.80119751,122334373.32821,114321603.73025827
+2,DALYs (Disability-Adjusted Life Years),1,Global,3,Both,22,All Ages,494,Stroke,2,Percent,2010,0.04661165132285413,0.049382824167042906,0.04353585901272323
+2,DALYs (Disability-Adjusted Life Years),1,Global,3,Both,22,All Ages,494,Stroke,3,Rate,2010,1683.3847626671256,1739.4522082094393,1625.5199633967986
+2,DALYs (Disability-Adjusted Life Years),1,Global,3,Both,22,All Ages,491,Cardiovascular diseases,1,Number,2011,332672410.3657485,341583229.09381706,324248223.33062375
+2,DALYs (Disability-Adjusted Life Years),1,Global,3,Both,22,All Ages,491,Cardiovascular diseases,2,Percent,2011,0.1320559711295732,0.13994170538415762,0.12367145561755728
+2,DALYs (Disability-Adjusted Life Years),1,Global,3,Both,22,All Ages,491,Cardiovascular diseases,3,Rate,2011,4672.415957461366,4797.569262399693,4554.097441392417
+2,DALYs (Disability-Adjusted Life Years),1,Global,3,Both,22,All Ages,494,Stroke,1,Number,2011,119335061.67563127,123445148.16496906,115188460.48940662
+2,DALYs (Disability-Adjusted Life Years),1,Global,3,Both,22,All Ages,494,Stroke,2,Percent,2011,0.04736907165029266,0.05031339171401496,0.04418168085494338
+2,DALYs (Disability-Adjusted Life Years),1,Global,3,Both,22,All Ages,494,Stroke,3,Rate,2011,1676.0724036142192,1733.798963139293,1617.8329916640564
+2,DALYs (Disability-Adjusted Life Years),1,Global,3,Both,22,All Ages,491,Cardiovascular diseases,1,Number,2012,337210073.5237557,346284535.57660186,328509414.6444278
+2,DALYs (Disability-Adjusted Life Years),1,Global,3,Both,22,All Ages,491,Cardiovascular diseases,2,Percent,2012,0.13441765999897068,0.142698574295401,0.12567736990348768
+2,DALYs (Disability-Adjusted Life Years),1,Global,3,Both,22,All Ages,491,Cardiovascular diseases,3,Rate,2012,4678.205594071733,4804.098034636162,4557.4990249706325
+2,DALYs (Disability-Adjusted Life Years),1,Global,3,Both,22,All Ages,494,Stroke,1,Number,2012,120858409.88785283,125143541.51032858,116528459.0602191
+2,DALYs (Disability-Adjusted Life Years),1,Global,3,Both,22,All Ages,494,Stroke,2,Percent,2012,0.04817424743116914,0.051337235276131904,0.04493918572162335
+2,DALYs (Disability-Adjusted Life Years),1,Global,3,Both,22,All Ages,494,Stroke,3,Rate,2012,1676.7010644720144,1736.1498422564875,1616.6304978598796
+2,DALYs (Disability-Adjusted Life Years),1,Global,3,Both,22,All Ages,494,Stroke,1,Number,2013,121809300.73009384,126214725.88417456,117217812.88447885
+2,DALYs (Disability-Adjusted Life Years),1,Global,3,Both,22,All Ages,494,Stroke,2,Percent,2013,0.04874670979056232,0.05195886718226643,0.04540222266966455
+2,DALYs (Disability-Adjusted Life Years),1,Global,3,Both,22,All Ages,494,Stroke,3,Rate,2013,1669.1678909397294,1729.5359758811535,1606.2501659581008
+2,DALYs (Disability-Adjusted Life Years),1,Global,3,Both,22,All Ages,491,Cardiovascular diseases,1,Number,2013,340446278.4491352,349812253.89420575,331428970.7593889
+2,DALYs (Disability-Adjusted Life Years),1,Global,3,Both,22,All Ages,491,Cardiovascular diseases,2,Percent,2013,0.136249260685256,0.1449243696353465,0.12724316280852996
+2,DALYs (Disability-Adjusted Life Years),1,Global,3,Both,22,All Ages,491,Cardiovascular diseases,3,Rate,2013,4665.177397548509,4793.520515738494,4541.612116669019
+2,DALYs (Disability-Adjusted Life Years),1,Global,3,Both,22,All Ages,491,Cardiovascular diseases,1,Number,2015,355885143.59354615,366146269.3285827,346163128.62260973
+2,DALYs (Disability-Adjusted Life Years),1,Global,3,Both,22,All Ages,491,Cardiovascular diseases,2,Percent,2015,0.14224512042949816,0.15152575694159057,0.13241910037602422
+2,DALYs (Disability-Adjusted Life Years),1,Global,3,Both,22,All Ages,491,Cardiovascular diseases,3,Rate,2015,4764.718053861673,4902.097688619655,4634.556227537057
+2,DALYs (Disability-Adjusted Life Years),1,Global,3,Both,22,All Ages,494,Stroke,1,Number,2015,127877997.11438462,132629645.1448958,122901452.07813033
+2,DALYs (Disability-Adjusted Life Years),1,Global,3,Both,22,All Ages,494,Stroke,2,Percent,2015,0.05110882311878053,0.05462696044601429,0.047444697136825455
+2,DALYs (Disability-Adjusted Life Years),1,Global,3,Both,22,All Ages,494,Stroke,3,Rate,2015,1712.0765294953123,1775.6932990180944,1645.4487581287792
+2,DALYs (Disability-Adjusted Life Years),1,Global,3,Both,22,All Ages,491,Cardiovascular diseases,1,Number,2014,346843240.62274444,356484696.47016186,337400921.7495878
+2,DALYs (Disability-Adjusted Life Years),1,Global,3,Both,22,All Ages,491,Cardiovascular diseases,2,Percent,2014,0.13866595605486454,0.14753273513851328,0.12927268716521906
+2,DALYs (Disability-Adjusted Life Years),1,Global,3,Both,22,All Ages,491,Cardiovascular diseases,3,Rate,2014,4696.375293850102,4826.923881036806,4568.523088937794
+2,DALYs (Disability-Adjusted Life Years),1,Global,3,Both,22,All Ages,494,Stroke,1,Number,2014,124521761.73207241,129098648.4001107,119796698.62610522
+2,DALYs (Disability-Adjusted Life Years),1,Global,3,Both,22,All Ages,494,Stroke,2,Percent,2014,0.04978033063062398,0.05313382464151878,0.04628898087608397
+2,DALYs (Disability-Adjusted Life Years),1,Global,3,Both,22,All Ages,494,Stroke,3,Rate,2014,1686.0669514424012,1748.0395516059032,1622.0879919767228
+2,DALYs (Disability-Adjusted Life Years),1,Global,3,Both,22,All Ages,491,Cardiovascular diseases,1,Number,2017,365869825.24580085,376747292.28673494,355162644.21898246
+2,DALYs (Disability-Adjusted Life Years),1,Global,3,Both,22,All Ages,491,Cardiovascular diseases,2,Percent,2017,0.14662551669832,0.15638384638344766,0.13634826246981088
+2,DALYs (Disability-Adjusted Life Years),1,Global,3,Both,22,All Ages,491,Cardiovascular diseases,3,Rate,2017,4788.579975877621,4930.946515193871,4648.442175148432
+2,DALYs (Disability-Adjusted Life Years),1,Global,3,Both,22,All Ages,494,Stroke,1,Number,2017,132051366.46022823,137350169.17597073,126498599.561561
+2,DALYs (Disability-Adjusted Life Years),1,Global,3,Both,22,All Ages,494,Stroke,2,Percent,2017,0.052916340419406384,0.056527030833004595,0.04892590873544375
+2,DALYs (Disability-Adjusted Life Years),1,Global,3,Both,22,All Ages,494,Stroke,3,Rate,2017,1728.3156073171797,1797.6674336496294,1655.6398452102324
+2,DALYs (Disability-Adjusted Life Years),1,Global,3,Both,22,All Ages,494,Stroke,1,Number,2016,130632352.1647823,135786593.98952812,125380565.15587695
+2,DALYs (Disability-Adjusted Life Years),1,Global,3,Both,22,All Ages,494,Stroke,2,Percent,2016,0.052230321767155544,0.0558210033753932,0.04845369944370012
+2,DALYs (Disability-Adjusted Life Years),1,Global,3,Both,22,All Ages,494,Stroke,3,Rate,2016,1729.2003137204158,1797.4277966727147,1659.681610329571
+2,DALYs (Disability-Adjusted Life Years),1,Global,3,Both,22,All Ages,491,Cardiovascular diseases,1,Number,2016,362381388.6818421,373063777.91006726,352288128.8897077
+2,DALYs (Disability-Adjusted Life Years),1,Global,3,Both,22,All Ages,491,Cardiovascular diseases,2,Percent,2016,0.14490058812709247,0.15446816058169682,0.13488221288831764
+2,DALYs (Disability-Adjusted Life Years),1,Global,3,Both,22,All Ages,491,Cardiovascular diseases,3,Rate,2016,4796.897557234808,4938.3019681530905,4663.2915422638425
+4,YLLs (Years of Life Lost),1,Global,3,Both,22,All Ages,494,Stroke,1,Number,1991,90556946.34287998,93249783.30450484,88569989.66427082
+4,YLLs (Years of Life Lost),1,Global,3,Both,22,All Ages,494,Stroke,2,Percent,1991,0.04509253630378037,0.04648893576949822,0.04407684860736816
+4,YLLs (Years of Life Lost),1,Global,3,Both,22,All Ages,494,Stroke,3,Rate,1991,1653.0402643058499,1702.1957195474902,1616.7700550528134
+4,YLLs (Years of Life Lost),1,Global,3,Both,22,All Ages,494,Stroke,1,Number,1990,89579281.85087527,92226646.02659355,87557538.72224416
+4,YLLs (Years of Life Lost),1,Global,3,Both,22,All Ages,494,Stroke,2,Percent,1990,0.0447881733397585,0.04612497190696493,0.04376251649459128
+4,YLLs (Years of Life Lost),1,Global,3,Both,22,All Ages,494,Stroke,3,Rate,1990,1660.5030795750922,1709.5764397953133,1623.026660677353
+4,YLLs (Years of Life Lost),1,Global,3,Both,22,All Ages,491,Cardiovascular diseases,1,Number,1991,250914502.31465572,255699066.64443842,246938975.66314712
+4,YLLs (Years of Life Lost),1,Global,3,Both,22,All Ages,491,Cardiovascular diseases,2,Percent,1991,0.12494192524887206,0.1276958396959737,0.12287510280361513
+4,YLLs (Years of Life Lost),1,Global,3,Both,22,All Ages,491,Cardiovascular diseases,3,Rate,1991,4580.23146732355,4667.569631911679,4507.661599498265
+4,YLLs (Years of Life Lost),1,Global,3,Both,22,All Ages,491,Cardiovascular diseases,1,Number,1990,247794192.3860858,252576619.8981884,243663435.95584077
+4,YLLs (Years of Life Lost),1,Global,3,Both,22,All Ages,491,Cardiovascular diseases,2,Percent,1990,0.12389300302929353,0.1265729589203495,0.12167697670088248
+4,YLLs (Years of Life Lost),1,Global,3,Both,22,All Ages,491,Cardiovascular diseases,3,Rate,1990,4593.283302302973,4681.933662605161,4516.712764655498
+4,YLLs (Years of Life Lost),1,Global,3,Both,22,All Ages,494,Stroke,1,Number,1992,92257389.52341568,94966035.74619578,90337716.21526441
+4,YLLs (Years of Life Lost),1,Global,3,Both,22,All Ages,494,Stroke,2,Percent,1992,0.04606115869670632,0.04753353919259251,0.04507647978490241
+4,YLLs (Years of Life Lost),1,Global,3,Both,22,All Ages,494,Stroke,3,Rate,1992,1659.1345443433997,1707.8461818592098,1624.6116045999165
+4,YLLs (Years of Life Lost),1,Global,3,Both,22,All Ages,491,Cardiovascular diseases,1,Number,1993,262593737.7460614,267120552.46462226,258811365.57382318
+4,YLLs (Years of Life Lost),1,Global,3,Both,22,All Ages,491,Cardiovascular diseases,2,Percent,1993,0.1307227091293121,0.1330851023956377,0.12881348671876786
+4,YLLs (Years of Life Lost),1,Global,3,Both,22,All Ages,491,Cardiovascular diseases,3,Rate,1993,4656.0613660082845,4736.326521236593,4588.995955027109
+4,YLLs (Years of Life Lost),1,Global,3,Both,22,All Ages,491,Cardiovascular diseases,1,Number,1992,255678175.95732617,260405422.78039014,251854122.3242835
+4,YLLs (Years of Life Lost),1,Global,3,Both,22,All Ages,491,Cardiovascular diseases,2,Percent,1992,0.1276517948287506,0.1302591276372453,0.1256921695413311
+4,YLLs (Years of Life Lost),1,Global,3,Both,22,All Ages,491,Cardiovascular diseases,3,Rate,1992,4598.054379783238,4683.068041499648,4529.283525602577
+4,YLLs (Years of Life Lost),1,Global,3,Both,22,All Ages,494,Stroke,1,Number,1994,96365898.1831358,99073094.96962167,94504882.25958478
+4,YLLs (Years of Life Lost),1,Global,3,Both,22,All Ages,494,Stroke,2,Percent,1994,0.04727932073878253,0.04857218662096476,0.046352479295946485
+4,YLLs (Years of Life Lost),1,Global,3,Both,22,All Ages,494,Stroke,3,Rate,1994,1685.400981904852,1732.7487699520482,1652.8525584061913
+4,YLLs (Years of Life Lost),1,Global,3,Both,22,All Ages,494,Stroke,1,Number,1993,94645087.5919133,97425310.35034212,92765625.36248778
+4,YLLs (Years of Life Lost),1,Global,3,Both,22,All Ages,494,Stroke,2,Percent,1993,0.0471156304630981,0.04853673699345416,0.04616285303132534
+4,YLLs (Years of Life Lost),1,Global,3,Both,22,All Ages,494,Stroke,3,Rate,1993,1678.1563018282097,1727.452556512456,1644.8314725675755
+4,YLLs (Years of Life Lost),1,Global,3,Both,22,All Ages,491,Cardiovascular diseases,1,Number,1994,267113783.7777788,271636080.714995,263308672.43594655
+4,YLLs (Years of Life Lost),1,Global,3,Both,22,All Ages,491,Cardiovascular diseases,2,Percent,1994,0.13105210648944732,0.1333350884483894,0.12913932315095195
+4,YLLs (Years of Life Lost),1,Global,3,Both,22,All Ages,491,Cardiovascular diseases,3,Rate,1994,4671.713146945724,4750.806310006006,4605.163272844059
+4,YLLs (Years of Life Lost),1,Global,3,Both,22,All Ages,494,Stroke,1,Number,1996,97566471.89579147,100286312.91812001,95809882.1089309
+4,YLLs (Years of Life Lost),1,Global,3,Both,22,All Ages,494,Stroke,2,Percent,1996,0.049045559441044974,0.05037173586073722,0.04814874612187369
+4,YLLs (Years of Life Lost),1,Global,3,Both,22,All Ages,494,Stroke,3,Rate,1996,1660.9796591056588,1707.2824568425096,1631.0753297937995
+4,YLLs (Years of Life Lost),1,Global,3,Both,22,All Ages,491,Cardiovascular diseases,1,Number,1995,268683609.5118702,273082760.1725268,264821347.84799027
+4,YLLs (Years of Life Lost),1,Global,3,Both,22,All Ages,491,Cardiovascular diseases,2,Percent,1995,0.13405469973499157,0.13636981587998942,0.13217713385208124
+4,YLLs (Years of Life Lost),1,Global,3,Both,22,All Ages,491,Cardiovascular diseases,3,Rate,1995,4635.727404225543,4711.628064150327,4569.089948111028
+4,YLLs (Years of Life Lost),1,Global,3,Both,22,All Ages,491,Cardiovascular diseases,1,Number,1997,269647903.3742104,273921909.2526325,265996980.06341824
+4,YLLs (Years of Life Lost),1,Global,3,Both,22,All Ages,491,Cardiovascular diseases,2,Percent,1997,0.13592086308981466,0.13828415994950988,0.13403608293197752
+4,YLLs (Years of Life Lost),1,Global,3,Both,22,All Ages,491,Cardiovascular diseases,3,Rate,1997,4529.745479648194,4601.543400438637,4468.414561971247
+4,YLLs (Years of Life Lost),1,Global,3,Both,22,All Ages,494,Stroke,1,Number,1995,97221902.9029422,99931825.8459838,95356888.38554832
+4,YLLs (Years of Life Lost),1,Global,3,Both,22,All Ages,494,Stroke,2,Percent,1995,0.04850706698933181,0.049792509280515714,0.04757984024837006
+4,YLLs (Years of Life Lost),1,Global,3,Both,22,All Ages,494,Stroke,3,Rate,1995,1677.4162011479652,1724.1718036695338,1645.2382096312203
+4,YLLs (Years of Life Lost),1,Global,3,Both,22,All Ages,494,Stroke,1,Number,1997,98149962.38749035,100776809.3051189,96465947.07962085
+4,YLLs (Years of Life Lost),1,Global,3,Both,22,All Ages,494,Stroke,2,Percent,1997,0.0494742316547818,0.05075855335537195,0.04858366893684399
+4,YLLs (Years of Life Lost),1,Global,3,Both,22,All Ages,494,Stroke,3,Rate,1997,1648.7958663464058,1692.9235892100373,1620.5065281649286
+4,YLLs (Years of Life Lost),1,Global,3,Both,22,All Ages,491,Cardiovascular diseases,1,Number,1996,268571998.26154405,272898410.29537,264970258.60054573
+4,YLLs (Years of Life Lost),1,Global,3,Both,22,All Ages,491,Cardiovascular diseases,2,Percent,1996,0.1350081272719504,0.13740861943834443,0.13320564275460295
+4,YLLs (Years of Life Lost),1,Global,3,Both,22,All Ages,491,Cardiovascular diseases,3,Rate,1996,4572.19183444746,4645.84502949965,4510.875521598698
+4,YLLs (Years of Life Lost),1,Global,3,Both,22,All Ages,494,Stroke,1,Number,1999,99895684.51339075,102331180.09610833,98229253.83988489
+4,YLLs (Years of Life Lost),1,Global,3,Both,22,All Ages,494,Stroke,2,Percent,1999,0.05060541400031053,0.05181895712671591,0.04973475214714241
+4,YLLs (Years of Life Lost),1,Global,3,Both,22,All Ages,494,Stroke,3,Rate,1999,1634.9596963193276,1674.8206486487848,1607.685775517199
+4,YLLs (Years of Life Lost),1,Global,3,Both,22,All Ages,491,Cardiovascular diseases,1,Number,1998,270318129.95714986,274679853.8292115,266609118.33327454
+4,YLLs (Years of Life Lost),1,Global,3,Both,22,All Ages,491,Cardiovascular diseases,2,Percent,1998,0.13677891602895426,0.13914911811749356,0.13496977436486024
+4,YLLs (Years of Life Lost),1,Global,3,Both,22,All Ages,491,Cardiovascular diseases,3,Rate,1998,4481.820988723756,4554.13750556235,4420.326311522713
+4,YLLs (Years of Life Lost),1,Global,3,Both,22,All Ages,494,Stroke,1,Number,1998,98657134.10095806,101265293.50272967,96979539.6946358
+4,YLLs (Years of Life Lost),1,Global,3,Both,22,All Ages,494,Stroke,2,Percent,1998,0.04991974740637227,0.05121712317535673,0.049021524286775565
+4,YLLs (Years of Life Lost),1,Global,3,Both,22,All Ages,494,Stroke,3,Rate,1998,1635.715718997831,1678.9584846630487,1607.901536419648
+4,YLLs (Years of Life Lost),1,Global,3,Both,22,All Ages,491,Cardiovascular diseases,1,Number,1999,273872037.5212612,278035519.83935225,270100492.8606468
+4,YLLs (Years of Life Lost),1,Global,3,Both,22,All Ages,491,Cardiovascular diseases,2,Percent,1999,0.13873885934031702,0.1410013075371111,0.13684003223920813
+4,YLLs (Years of Life Lost),1,Global,3,Both,22,All Ages,491,Cardiovascular diseases,3,Rate,1999,4482.373242420636,4550.51558329928,4420.645615816841
+4,YLLs (Years of Life Lost),1,Global,3,Both,22,All Ages,494,Stroke,1,Number,2000,101221502.83722666,103469864.69223444,99547528.14974242
+4,YLLs (Years of Life Lost),1,Global,3,Both,22,All Ages,494,Stroke,2,Percent,2000,0.05161752618588352,0.052763498467029435,0.050781623243246164
+4,YLLs (Years of Life Lost),1,Global,3,Both,22,All Ages,494,Stroke,3,Rate,2000,1635.4795455565052,1671.8072992630266,1608.4324134312062
+4,YLLs (Years of Life Lost),1,Global,3,Both,22,All Ages,491,Cardiovascular diseases,1,Number,2000,277158268.0838459,281185270.4203313,273370594.0985014
+4,YLLs (Years of Life Lost),1,Global,3,Both,22,All Ages,491,Cardiovascular diseases,2,Percent,2000,0.14133586352286207,0.14362464078568044,0.1393973913020543
+4,YLLs (Years of Life Lost),1,Global,3,Both,22,All Ages,491,Cardiovascular diseases,3,Rate,2000,4478.165860290791,4543.231876568199,4416.966775564412
+4,YLLs (Years of Life Lost),1,Global,3,Both,22,All Ages,494,Stroke,1,Number,2002,103031938.01129204,104969929.84563082,101382743.46326745
+4,YLLs (Years of Life Lost),1,Global,3,Both,22,All Ages,494,Stroke,2,Percent,2002,0.053650460987953674,0.05464895585824231,0.0527891330403637
+4,YLLs (Years of Life Lost),1,Global,3,Both,22,All Ages,494,Stroke,3,Rate,2002,1622.6572369925161,1653.1788066719812,1596.6839560835645
+4,YLLs (Years of Life Lost),1,Global,3,Both,22,All Ages,494,Stroke,1,Number,2001,101801586.14770246,103985520.30291298,100181439.70428213
+4,YLLs (Years of Life Lost),1,Global,3,Both,22,All Ages,494,Stroke,2,Percent,2001,0.052521472818895396,0.05362765577132351,0.05169333602397225
+4,YLLs (Years of Life Lost),1,Global,3,Both,22,All Ages,494,Stroke,3,Rate,2001,1623.9411464332316,1658.7793122217427,1598.096534651833
+4,YLLs (Years of Life Lost),1,Global,3,Both,22,All Ages,494,Stroke,1,Number,2003,103848229.93054883,105680421.93539579,102196596.32867695
+4,YLLs (Years of Life Lost),1,Global,3,Both,22,All Ages,494,Stroke,2,Percent,2003,0.054695715488391715,0.055710363250356464,0.053811210893951904
+4,YLLs (Years of Life Lost),1,Global,3,Both,22,All Ages,494,Stroke,3,Rate,2003,1614.6555936089396,1643.1429262401275,1588.9756235638222
+4,YLLs (Years of Life Lost),1,Global,3,Both,22,All Ages,491,Cardiovascular diseases,1,Number,2002,282685646.36504155,286533683.5655396,278687618.88243943
+4,YLLs (Years of Life Lost),1,Global,3,Both,22,All Ages,491,Cardiovascular diseases,2,Percent,2002,0.1471991815532507,0.14947525878478105,0.14507906824078864
+4,YLLs (Years of Life Lost),1,Global,3,Both,22,All Ages,491,Cardiovascular diseases,3,Rate,2002,4452.036123186084,4512.639131652448,4389.07090721947
+4,YLLs (Years of Life Lost),1,Global,3,Both,22,All Ages,494,Stroke,1,Number,2004,103401795.69894584,105083941.23280752,101826538.40366377
+4,YLLs (Years of Life Lost),1,Global,3,Both,22,All Ages,494,Stroke,2,Percent,2004,0.05475859961242651,0.05572976464335623,0.053897812523131604
+4,YLLs (Years of Life Lost),1,Global,3,Both,22,All Ages,494,Stroke,3,Rate,2004,1587.3594989265903,1613.1827418761297,1563.1771371598825
+4,YLLs (Years of Life Lost),1,Global,3,Both,22,All Ages,491,Cardiovascular diseases,1,Number,2001,278878140.42922974,282904337.74200743,275016896.64390796
+4,YLLs (Years of Life Lost),1,Global,3,Both,22,All Ages,491,Cardiovascular diseases,2,Percent,2001,0.14387884053199326,0.14616336993584472,0.14190428258557053
+4,YLLs (Years of Life Lost),1,Global,3,Both,22,All Ages,491,Cardiovascular diseases,3,Rate,2001,4448.670243965845,4512.896232256374,4387.075597981696
+4,YLLs (Years of Life Lost),1,Global,3,Both,22,All Ages,491,Cardiovascular diseases,1,Number,2003,285726496.0296437,289469571.411597,281757348.69945717
+4,YLLs (Years of Life Lost),1,Global,3,Both,22,All Ages,491,Cardiovascular diseases,2,Percent,2003,0.15048900728703296,0.15278949693657626,0.14834357778659923
+4,YLLs (Years of Life Lost),1,Global,3,Both,22,All Ages,491,Cardiovascular diseases,3,Rate,2003,4442.539707851408,4500.737884236437,4380.826514060532
+4,YLLs (Years of Life Lost),1,Global,3,Both,22,All Ages,491,Cardiovascular diseases,1,Number,2004,285317086.52796215,289271216.07080156,281538159.5304206
+4,YLLs (Years of Life Lost),1,Global,3,Both,22,All Ages,491,Cardiovascular diseases,2,Percent,2004,0.1510957328763662,0.15347281379668024,0.1490435588347142
+4,YLLs (Years of Life Lost),1,Global,3,Both,22,All Ages,491,Cardiovascular diseases,3,Rate,2004,4380.008920007935,4440.710236144525,4321.99720343425
+4,YLLs (Years of Life Lost),1,Global,3,Both,22,All Ages,494,Stroke,1,Number,2005,103517266.69356628,105160730.8311503,101960078.10926846
+4,YLLs (Years of Life Lost),1,Global,3,Both,22,All Ages,494,Stroke,2,Percent,2005,0.0554926811008909,0.05649779688441223,0.05463556841205341
+4,YLLs (Years of Life Lost),1,Global,3,Both,22,All Ages,494,Stroke,3,Rate,2005,1569.0175410098564,1593.927627435564,1545.4151384207664
+4,YLLs (Years of Life Lost),1,Global,3,Both,22,All Ages,494,Stroke,1,Number,2007,101163014.5632794,103141055.56967686,99743805.61937521
+4,YLLs (Years of Life Lost),1,Global,3,Both,22,All Ages,494,Stroke,2,Percent,2007,0.055951719410840046,0.05712385161744693,0.05513964388367941
+4,YLLs (Years of Life Lost),1,Global,3,Both,22,All Ages,494,Stroke,3,Rate,2007,1494.6703421825623,1523.895639991714,1473.7017151900682
+4,YLLs (Years of Life Lost),1,Global,3,Both,22,All Ages,494,Stroke,1,Number,2006,101517195.14182864,103393411.8827013,100071176.45329314
+4,YLLs (Years of Life Lost),1,Global,3,Both,22,All Ages,494,Stroke,2,Percent,2006,0.055420793541936575,0.05654455736126379,0.054647972158063066
+4,YLLs (Years of Life Lost),1,Global,3,Both,22,All Ages,494,Stroke,3,Rate,2006,1519.330064920228,1547.4099630964133,1497.6886113235332
+4,YLLs (Years of Life Lost),1,Global,3,Both,22,All Ages,494,Stroke,1,Number,2008,102198193.51178774,104132310.02474232,100759922.61130768
+4,YLLs (Years of Life Lost),1,Global,3,Both,22,All Ages,494,Stroke,2,Percent,2008,0.05660319344550187,0.057721433450091376,0.05578942915851931
+4,YLLs (Years of Life Lost),1,Global,3,Both,22,All Ages,494,Stroke,3,Rate,2008,1490.505259045694,1518.7133000599727,1469.5288575317975
+4,YLLs (Years of Life Lost),1,Global,3,Both,22,All Ages,491,Cardiovascular diseases,1,Number,2005,288752445.56086475,292516065.35120946,284978542.9959886
+4,YLLs (Years of Life Lost),1,Global,3,Both,22,All Ages,491,Cardiovascular diseases,2,Percent,2005,0.15479205093247,0.15707311587251319,0.1526251542970851
+4,YLLs (Years of Life Lost),1,Global,3,Both,22,All Ages,491,Cardiovascular diseases,3,Rate,2005,4376.638473614644,4433.6838889096925,4319.437201677267
+4,YLLs (Years of Life Lost),1,Global,3,Both,22,All Ages,491,Cardiovascular diseases,1,Number,2006,286451162.0451725,290532670.47117895,282853931.00894064
+4,YLLs (Years of Life Lost),1,Global,3,Both,22,All Ages,491,Cardiovascular diseases,2,Percent,2006,0.15638088487288448,0.15884665935522754,0.15430682567744755
+4,YLLs (Years of Life Lost),1,Global,3,Both,22,All Ages,491,Cardiovascular diseases,3,Rate,2006,4287.095028763697,4348.179837629744,4233.25802847841
+4,YLLs (Years of Life Lost),1,Global,3,Both,22,All Ages,491,Cardiovascular diseases,1,Number,2007,287750468.70726997,291954407.8736665,284186988.33970803
+4,YLLs (Years of Life Lost),1,Global,3,Both,22,All Ages,491,Cardiovascular diseases,2,Percent,2007,0.15915034222973642,0.16169318598912258,0.15689513099868904
+4,YLLs (Years of Life Lost),1,Global,3,Both,22,All Ages,491,Cardiovascular diseases,3,Rate,2007,4251.475634475653,4313.588287202332,4198.825676945843
+4,YLLs (Years of Life Lost),1,Global,3,Both,22,All Ages,491,Cardiovascular diseases,1,Number,2008,292455383.23725,296525272.1552672,288631861.08304816
+4,YLLs (Years of Life Lost),1,Global,3,Both,22,All Ages,491,Cardiovascular diseases,2,Percent,2008,0.16197845592093094,0.1644381485330408,0.159608587090522
+4,YLLs (Years of Life Lost),1,Global,3,Both,22,All Ages,491,Cardiovascular diseases,3,Rate,2008,4265.303248252281,4324.660372165999,4209.539250053455
+4,YLLs (Years of Life Lost),1,Global,3,Both,22,All Ages,491,Cardiovascular diseases,1,Number,2009,295476260.8560007,299622035.5589963,291649029.54698646
+4,YLLs (Years of Life Lost),1,Global,3,Both,22,All Ages,491,Cardiovascular diseases,2,Percent,2009,0.16627094397852743,0.16885429005138267,0.16390845733103251
+4,YLLs (Years of Life Lost),1,Global,3,Both,22,All Ages,491,Cardiovascular diseases,3,Rate,2009,4254.032805713427,4313.720381089359,4198.931365427048
+4,YLLs (Years of Life Lost),1,Global,3,Both,22,All Ages,494,Stroke,1,Number,2009,102922831.68886256,104889386.99919812,101509833.51514861
+4,YLLs (Years of Life Lost),1,Global,3,Both,22,All Ages,494,Stroke,2,Percent,2009,0.057916938805539185,0.05911030310627997,0.05703010306985181
+4,YLLs (Years of Life Lost),1,Global,3,Both,22,All Ages,494,Stroke,3,Rate,2009,1481.8012830977345,1510.1141864090932,1461.458056308624
+4,YLLs (Years of Life Lost),1,Global,3,Both,22,All Ages,494,Stroke,1,Number,2010,104194128.86882392,106149677.20652099,102730631.94110301
+4,YLLs (Years of Life Lost),1,Global,3,Both,22,All Ages,494,Stroke,2,Percent,2010,0.05863126347795732,0.05983647166545165,0.057704608414229336
+4,YLLs (Years of Life Lost),1,Global,3,Both,22,All Ages,494,Stroke,3,Rate,2010,1481.5190744230592,1509.3246925966316,1460.7098538142116
+4,YLLs (Years of Life Lost),1,Global,3,Both,22,All Ages,494,Stroke,1,Number,2012,105694089.16463709,107805837.95698261,104135551.86921363
+4,YLLs (Years of Life Lost),1,Global,3,Both,22,All Ages,494,Stroke,2,Percent,2012,0.06141618939402349,0.0626775704686741,0.0603942124201558
+4,YLLs (Years of Life Lost),1,Global,3,Both,22,All Ages,494,Stroke,3,Rate,2012,1466.3223848070713,1495.6192409489727,1444.7003798122962
+4,YLLs (Years of Life Lost),1,Global,3,Both,22,All Ages,494,Stroke,1,Number,2011,104689572.9556452,106713965.1583305,103171918.96400198
+4,YLLs (Years of Life Lost),1,Global,3,Both,22,All Ages,494,Stroke,2,Percent,2011,0.06002796526091838,0.06128642979256439,0.059080915069473584
+4,YLLs (Years of Life Lost),1,Global,3,Both,22,All Ages,494,Stroke,3,Rate,2011,1470.3751078124717,1498.8078907462539,1449.0595117260325
+4,YLLs (Years of Life Lost),1,Global,3,Both,22,All Ages,491,Cardiovascular diseases,1,Number,2010,300360884.1874172,304433772.2615981,296475379.18744314
+4,YLLs (Years of Life Lost),1,Global,3,Both,22,All Ages,491,Cardiovascular diseases,2,Percent,2010,0.16901656072633967,0.17159097064557555,0.16652104023975217
+4,YLLs (Years of Life Lost),1,Global,3,Both,22,All Ages,491,Cardiovascular diseases,3,Rate,2010,4270.781703011863,4328.693424482144,4215.534350462141
+4,YLLs (Years of Life Lost),1,Global,3,Both,22,All Ages,491,Cardiovascular diseases,1,Number,2011,303184957.23054594,307397079.6851698,299165591.87185854
+4,YLLs (Years of Life Lost),1,Global,3,Both,22,All Ages,491,Cardiovascular diseases,2,Percent,2011,0.17384316628150234,0.1764460506573639,0.1711545642630309
+4,YLLs (Years of Life Lost),1,Global,3,Both,22,All Ages,491,Cardiovascular diseases,3,Rate,2011,4258.261845846461,4317.421510304748,4201.8094733153275
+4,YLLs (Years of Life Lost),1,Global,3,Both,22,All Ages,494,Stroke,1,Number,2013,106064223.9237129,108296449.04710382,104421193.08362204
+4,YLLs (Years of Life Lost),1,Global,3,Both,22,All Ages,494,Stroke,2,Percent,2013,0.06245024813616962,0.06387490531407987,0.06141168567476064
+4,YLLs (Years of Life Lost),1,Global,3,Both,22,All Ages,494,Stroke,3,Rate,2013,1453.4111589983413,1483.9996155363935,1430.8965044878425
+4,YLLs (Years of Life Lost),1,Global,3,Both,22,All Ages,491,Cardiovascular diseases,1,Number,2012,306860637.92345375,310952669.97850716,302809455.14222914
+4,YLLs (Years of Life Lost),1,Global,3,Both,22,All Ages,491,Cardiovascular diseases,2,Percent,2012,0.17830894019467156,0.18097481721213213,0.17552294649189962
+4,YLLs (Years of Life Lost),1,Global,3,Both,22,All Ages,491,Cardiovascular diseases,3,Rate,2012,4257.159751880278,4313.92960768864,4200.956608979811
+4,YLLs (Years of Life Lost),1,Global,3,Both,22,All Ages,494,Stroke,1,Number,2014,108123383.14888036,110465838.01821114,106334325.24403888
+4,YLLs (Years of Life Lost),1,Global,3,Both,22,All Ages,494,Stroke,2,Percent,2014,0.06403811196479685,0.06547355960002128,0.06292841814342633
+4,YLLs (Years of Life Lost),1,Global,3,Both,22,All Ages,494,Stroke,3,Rate,2014,1464.02733521972,1495.7449698362498,1439.8028834804334
+4,YLLs (Years of Life Lost),1,Global,3,Both,22,All Ages,491,Cardiovascular diseases,1,Number,2013,309167126.9428276,313366342.4673118,305149513.206508
+4,YLLs (Years of Life Lost),1,Global,3,Both,22,All Ages,491,Cardiovascular diseases,2,Percent,2013,0.18203649512897171,0.1847526915834805,0.17933608940518253
+4,YLLs (Years of Life Lost),1,Global,3,Both,22,All Ages,491,Cardiovascular diseases,3,Rate,2013,4236.55532158852,4294.097690509392,4181.5014643980685
+4,YLLs (Years of Life Lost),1,Global,3,Both,22,All Ages,491,Cardiovascular diseases,1,Number,2014,314551799.1529234,318842432.8203294,310258759.5609128
+4,YLLs (Years of Life Lost),1,Global,3,Both,22,All Ages,491,Cardiovascular diseases,2,Percent,2014,0.18629935327899808,0.1891834481590758,0.18341501865392362
+4,YLLs (Years of Life Lost),1,Global,3,Both,22,All Ages,491,Cardiovascular diseases,3,Rate,2014,4259.138207581997,4317.234844882435,4201.008993245176
+4,YLLs (Years of Life Lost),1,Global,3,Both,22,All Ages,494,Stroke,1,Number,2015,110775551.05328774,113130956.47857262,108798549.24421366
+4,YLLs (Years of Life Lost),1,Global,3,Both,22,All Ages,494,Stroke,2,Percent,2015,0.06605780744174185,0.06749595329559413,0.06486298384957316
+4,YLLs (Years of Life Lost),1,Global,3,Both,22,All Ages,494,Stroke,3,Rate,2015,1483.1028423959401,1514.6378557451794,1456.6340324953758
+4,YLLs (Years of Life Lost),1,Global,3,Both,22,All Ages,494,Stroke,1,Number,2016,112765121.52901058,115280217.31071965,110650705.30527735
+4,YLLs (Years of Life Lost),1,Global,3,Both,22,All Ages,494,Stroke,2,Percent,2016,0.06777430027463008,0.06927214188077836,0.06650284429876926
+4,YLLs (Years of Life Lost),1,Global,3,Both,22,All Ages,494,Stroke,3,Rate,2016,1492.689064334671,1525.9817697227056,1464.7002151956528
+4,YLLs (Years of Life Lost),1,Global,3,Both,22,All Ages,494,Stroke,1,Number,2017,113355948.25764273,116180576.90909664,110957794.32688273
+4,YLLs (Years of Life Lost),1,Global,3,Both,22,All Ages,494,Stroke,2,Percent,2017,0.06885926987015635,0.07060701456242638,0.06749963194150822
+4,YLLs (Years of Life Lost),1,Global,3,Both,22,All Ages,494,Stroke,3,Rate,2017,1483.6261055649823,1520.595429806343,1452.2385707110354
+4,YLLs (Years of Life Lost),1,Global,3,Both,22,All Ages,491,Cardiovascular diseases,1,Number,2015,322531830.9019453,326890199.4010874,317851921.31499505
+4,YLLs (Years of Life Lost),1,Global,3,Both,22,All Ages,491,Cardiovascular diseases,2,Percent,2015,0.19233285171207037,0.1953078777569441,0.18918443483612898
+4,YLLs (Years of Life Lost),1,Global,3,Both,22,All Ages,491,Cardiovascular diseases,3,Rate,2015,4318.171930769607,4376.523332751585,4255.515621281026
+4,YLLs (Years of Life Lost),1,Global,3,Both,22,All Ages,491,Cardiovascular diseases,1,Number,2016,327894498.31144154,332620427.36933684,322864434.61281043
+4,YLLs (Years of Life Lost),1,Global,3,Both,22,All Ages,491,Cardiovascular diseases,2,Percent,2016,0.1970722894571541,0.200146955744285,0.19391296605993863
+4,YLLs (Years of Life Lost),1,Global,3,Both,22,All Ages,491,Cardiovascular diseases,3,Rate,2016,4340.389344227111,4402.947185941722,4273.805626016663
+4,YLLs (Years of Life Lost),1,Global,3,Both,22,All Ages,491,Cardiovascular diseases,1,Number,2017,330172572.70451814,335159851.44779205,324899269.16698056
+4,YLLs (Years of Life Lost),1,Global,3,Both,22,All Ages,491,Cardiovascular diseases,2,Percent,2017,0.20056741319052343,0.20384010877399839,0.1971252916156786
+4,YLLs (Years of Life Lost),1,Global,3,Both,22,All Ages,491,Cardiovascular diseases,3,Rate,2017,4321.366948407562,4386.64148453012,4252.348860595557
+1,Deaths,1,Global,3,Both,22,All Ages,491,Cardiovascular diseases,1,Number,1990,11941533.320308894,12179149.644195912,11784718.532090671
+1,Deaths,1,Global,3,Both,22,All Ages,491,Cardiovascular diseases,2,Percent,1990,0.2569282374679007,0.2621708131525022,0.25364599464466236
+1,Deaths,1,Global,3,Both,22,All Ages,491,Cardiovascular diseases,3,Rate,1990,221.35646148884325,225.76108083183473,218.44963489480105
+1,Deaths,1,Global,3,Both,22,All Ages,494,Stroke,1,Number,1990,4362497.255166059,4519812.508587667,4272312.719785788
+1,Deaths,1,Global,3,Both,22,All Ages,494,Stroke,2,Percent,1990,0.09386131889003638,0.09722198234671756,0.09200402760888296
+1,Deaths,1,Global,3,Both,22,All Ages,494,Stroke,3,Rate,1990,80.86624470712165,83.78234826782656,79.19452223251785
+1,Deaths,1,Global,3,Both,22,All Ages,494,Stroke,1,Number,1993,4639064.383898273,4801736.165828937,4559790.165809394
+1,Deaths,1,Global,3,Both,22,All Ages,494,Stroke,2,Percent,1993,0.0961641810281259,0.0994820170051373,0.09454586327616878
+1,Deaths,1,Global,3,Both,22,All Ages,494,Stroke,3,Rate,1993,82.255459089362,85.13979976590741,80.8498443655215
+1,Deaths,1,Global,3,Both,22,All Ages,494,Stroke,1,Number,1992,4505873.587444116,4671018.2052139295,4425400.9766941145
+1,Deaths,1,Global,3,Both,22,All Ages,494,Stroke,2,Percent,1992,0.09486509061079604,0.09834532972741555,0.09317624156643521
+1,Deaths,1,Global,3,Both,22,All Ages,494,Stroke,3,Rate,1992,81.03253907347553,84.00245987407169,79.58533913579541
+1,Deaths,1,Global,3,Both,22,All Ages,491,Cardiovascular diseases,1,Number,1993,12699753.539751522,12932397.7425585,12540861.581242401
+1,Deaths,1,Global,3,Both,22,All Ages,491,Cardiovascular diseases,2,Percent,1993,0.26325611800232257,0.26816818077559074,0.2600431314544521
+1,Deaths,1,Global,3,Both,22,All Ages,491,Cardiovascular diseases,3,Rate,1993,225.17990079202085,229.30492560797006,222.36258033444338
+1,Deaths,1,Global,3,Both,22,All Ages,494,Stroke,1,Number,1991,4422392.439861005,4586640.963382002,4336949.806688077
+1,Deaths,1,Global,3,Both,22,All Ages,494,Stroke,2,Percent,1991,0.09394014760307481,0.09743630554163228,0.09215040392229315
+1,Deaths,1,Global,3,Both,22,All Ages,494,Stroke,3,Rate,1991,80.72702385493822,83.72524137107406,79.16734104067481
+1,Deaths,1,Global,3,Both,22,All Ages,491,Cardiovascular diseases,1,Number,1991,12118293.119888205,12362982.236844463,11959122.447111633
+1,Deaths,1,Global,3,Both,22,All Ages,491,Cardiovascular diseases,2,Percent,1991,0.25741596660039484,0.2627165535545163,0.25422346197216794
+1,Deaths,1,Global,3,Both,22,All Ages,491,Cardiovascular diseases,3,Rate,1991,221.2091647391421,225.67575707579869,218.3036390823903
+1,Deaths,1,Global,3,Both,22,All Ages,491,Cardiovascular diseases,1,Number,1992,12337835.943070877,12588245.7835586,12186414.036188744
+1,Deaths,1,Global,3,Both,22,All Ages,491,Cardiovascular diseases,2,Percent,1992,0.2597565617304844,0.2649542935969426,0.2565737648126958
+1,Deaths,1,Global,3,Both,22,All Ages,491,Cardiovascular diseases,3,Rate,1992,221.88065282721848,226.3839627381421,219.15751793497554
+1,Deaths,1,Global,3,Both,22,All Ages,491,Cardiovascular diseases,1,Number,1994,12929774.854822366,13156767.30109026,12765112.48674914
+1,Deaths,1,Global,3,Both,22,All Ages,491,Cardiovascular diseases,2,Percent,1994,0.2628247449019467,0.26761418113530966,0.2597263544683085
+1,Deaths,1,Global,3,Both,22,All Ages,491,Cardiovascular diseases,3,Rate,1994,226.13658614702658,230.10659316234882,223.25670724727308
+1,Deaths,1,Global,3,Both,22,All Ages,494,Stroke,1,Number,1994,4735571.768733121,4896133.926487001,4658457.651972842
+1,Deaths,1,Global,3,Both,22,All Ages,494,Stroke,2,Percent,1994,0.09626036022454981,0.09951220186949411,0.09471677882773123
+1,Deaths,1,Global,3,Both,22,All Ages,494,Stroke,3,Rate,1994,82.82325448506458,85.63142234773409,81.47455945334818
+1,Deaths,1,Global,3,Both,22,All Ages,491,Cardiovascular diseases,1,Number,1996,13085432.701217115,13318747.082724376,12929792.84041915
+1,Deaths,1,Global,3,Both,22,All Ages,491,Cardiovascular diseases,2,Percent,1996,0.2660887700298777,0.2710559847121701,0.2628107103157584
+1,Deaths,1,Global,3,Both,22,All Ages,491,Cardiovascular diseases,3,Rate,1996,222.76748482339252,226.7394480842376,220.1178590051341
+1,Deaths,1,Global,3,Both,22,All Ages,494,Stroke,1,Number,1996,4824613.7169375485,4982768.762223594,4752202.845619952
+1,Deaths,1,Global,3,Both,22,All Ages,494,Stroke,2,Percent,1996,0.09810715935920461,0.10125641099595642,0.0966034262438099
+1,Deaths,1,Global,3,Both,22,All Ages,494,Stroke,3,Rate,1996,82.13462156789431,84.82706609418224,80.9018929263881
+1,Deaths,1,Global,3,Both,22,All Ages,494,Stroke,1,Number,1995,4789626.044800536,4946336.641373739,4713800.448922309
+1,Deaths,1,Global,3,Both,22,All Ages,494,Stroke,2,Percent,1995,0.09758145282725193,0.10078431263696569,0.09607844632555815
+1,Deaths,1,Global,3,Both,22,All Ages,494,Stroke,3,Rate,1995,82.63771933171581,85.34152254616103,81.32946389554307
+1,Deaths,1,Global,3,Both,22,All Ages,491,Cardiovascular diseases,1,Number,1995,13041558.903061578,13269413.474663079,12874932.70802553
+1,Deaths,1,Global,3,Both,22,All Ages,491,Cardiovascular diseases,2,Percent,1995,0.2657024094986762,0.2705754264814083,0.2624477391438557
+1,Deaths,1,Global,3,Both,22,All Ages,491,Cardiovascular diseases,3,Rate,1995,225.0122815849443,228.94356598174917,222.13739978626043
+1,Deaths,1,Global,3,Both,22,All Ages,494,Stroke,1,Number,1997,4876191.279480878,5033595.775543172,4802663.677173257
+1,Deaths,1,Global,3,Both,22,All Ages,494,Stroke,2,Percent,1997,0.09848801807035644,0.10166186341778045,0.09695095274880393
+1,Deaths,1,Global,3,Both,22,All Ages,494,Stroke,3,Rate,1997,81.91387780039742,84.55807527270248,80.67870660116088
+1,Deaths,1,Global,3,Both,22,All Ages,491,Cardiovascular diseases,1,Number,1997,13178040.416464869,13410488.716913315,13017631.495013047
+1,Deaths,1,Global,3,Both,22,All Ages,491,Cardiovascular diseases,2,Percent,1997,0.2661667650856717,0.2710214615181534,0.262973817331127
+1,Deaths,1,Global,3,Both,22,All Ages,491,Cardiovascular diseases,3,Rate,1997,221.37449711323018,225.27933607185963,218.67982907483966
+1,Deaths,1,Global,3,Both,22,All Ages,491,Cardiovascular diseases,1,Number,1998,13281787.722583264,13511176.81939654,13119227.482281316
+1,Deaths,1,Global,3,Both,22,All Ages,491,Cardiovascular diseases,2,Percent,1998,0.266519527089862,0.27147217347978864,0.26342407834045634
+1,Deaths,1,Global,3,Both,22,All Ages,491,Cardiovascular diseases,3,Rate,1998,220.2094065695229,224.01263230523338,217.51419002214337
+1,Deaths,1,Global,3,Both,22,All Ages,494,Stroke,1,Number,2000,5109059.1224160725,5244765.762931044,5036743.829907745
+1,Deaths,1,Global,3,Both,22,All Ages,494,Stroke,2,Percent,2000,0.10108568714630713,0.10362594247154419,0.09975877755520246
+1,Deaths,1,Global,3,Both,22,All Ages,494,Stroke,3,Rate,2000,82.54927517908085,84.7419459904929,81.3808457602994
+1,Deaths,1,Global,3,Both,22,All Ages,491,Cardiovascular diseases,1,Number,2000,13698711.843165843,13907655.11224495,13536363.730551532
+1,Deaths,1,Global,3,Both,22,All Ages,491,Cardiovascular diseases,2,Percent,2000,0.2710372024954717,0.2755539041852951,0.268074497087974
+1,Deaths,1,Global,3,Both,22,All Ages,491,Cardiovascular diseases,3,Rate,2000,221.33600462342505,224.71199127825741,218.71287603910218
+1,Deaths,1,Global,3,Both,22,All Ages,494,Stroke,1,Number,1999,5020501.563096914,5166187.821413285,4947859.617687575
+1,Deaths,1,Global,3,Both,22,All Ages,494,Stroke,2,Percent,1999,0.09984424741600861,0.10267968200908711,0.09846261150837207
+1,Deaths,1,Global,3,Both,22,All Ages,494,Stroke,3,Rate,1999,82.1688919892362,84.55329089310388,80.97998524531606
+1,Deaths,1,Global,3,Both,22,All Ages,494,Stroke,1,Number,1998,4934994.406818142,5090050.921219621,4860361.113354169
+1,Deaths,1,Global,3,Both,22,All Ages,494,Stroke,2,Percent,1998,0.09902818352714624,0.10210320099311354,0.09749432864738555
+1,Deaths,1,Global,3,Both,22,All Ages,494,Stroke,3,Rate,1998,81.82122862132117,84.39203488131189,80.58382341598956
+1,Deaths,1,Global,3,Both,22,All Ages,491,Cardiovascular diseases,1,Number,1999,13499184.396883443,13715344.80421346,13337261.796351159
+1,Deaths,1,Global,3,Both,22,All Ages,491,Cardiovascular diseases,2,Percent,1999,0.26846265433291344,0.2732458875230857,0.26546982733844116
+1,Deaths,1,Global,3,Both,22,All Ages,491,Cardiovascular diseases,3,Rate,1999,220.93669540978632,224.47452144948053,218.28656165192606
+1,Deaths,1,Global,3,Both,22,All Ages,491,Cardiovascular diseases,1,Number,2001,13870332.32030584,14077788.276161378,13707558.4325625
+1,Deaths,1,Global,3,Both,22,All Ages,491,Cardiovascular diseases,2,Percent,2001,0.27378101800556554,0.2782046464557352,0.2707439038086768
+1,Deaths,1,Global,3,Both,22,All Ages,491,Cardiovascular diseases,3,Rate,2001,221.2598469435112,224.56918892466337,218.66327429789675
+1,Deaths,1,Global,3,Both,22,All Ages,494,Stroke,1,Number,2001,5177726.647165177,5303541.769975932,5105626.827631428
+1,Deaths,1,Global,3,Both,22,All Ages,494,Stroke,2,Percent,2001,0.1022010033690931,0.10458857891721274,0.10092737094041956
+1,Deaths,1,Global,3,Both,22,All Ages,494,Stroke,3,Rate,2001,82.59520961800898,84.60221523066721,81.44507170737394
+1,Deaths,1,Global,3,Both,22,All Ages,491,Cardiovascular diseases,1,Number,2002,14150328.099264901,14343197.00263387,13982229.324872062
+1,Deaths,1,Global,3,Both,22,All Ages,491,Cardiovascular diseases,2,Percent,2002,0.2774251634225634,0.28144807902414354,0.2742093133029591
+1,Deaths,1,Global,3,Both,22,All Ages,491,Cardiovascular diseases,3,Rate,2002,222.8545122928216,225.89201821460836,220.20711287412664
+1,Deaths,1,Global,3,Both,22,All Ages,494,Stroke,1,Number,2002,5279334.41121946,5386419.011371936,5207867.372898688
+1,Deaths,1,Global,3,Both,22,All Ages,494,Stroke,2,Percent,2002,0.10350423630625633,0.10556753012394662,0.10213385929028594
+1,Deaths,1,Global,3,Both,22,All Ages,494,Stroke,3,Rate,2002,83.14460888748881,84.83109178552786,82.01906947538036
+1,Deaths,1,Global,3,Both,22,All Ages,491,Cardiovascular diseases,1,Number,2003,14396608.965028143,14585605.198667025,14222834.677266296
+1,Deaths,1,Global,3,Both,22,All Ages,491,Cardiovascular diseases,2,Percent,2003,0.28088782734965095,0.2844811917876019,0.2774669722965845
+1,Deaths,1,Global,3,Both,22,All Ages,491,Cardiovascular diseases,3,Rate,2003,223.8417083269439,226.78026419852785,221.1398266872881
+1,Deaths,1,Global,3,Both,22,All Ages,494,Stroke,1,Number,2003,5363060.153245858,5458091.8276836015,5290670.561822009
+1,Deaths,1,Global,3,Both,22,All Ages,494,Stroke,2,Percent,2003,0.10463693624616673,0.10646350411205803,0.10328390129411784
+1,Deaths,1,Global,3,Both,22,All Ages,494,Stroke,3,Rate,2003,83.38606330691326,84.8636371163422,82.26053368748939
+1,Deaths,1,Global,3,Both,22,All Ages,494,Stroke,1,Number,2004,5353847.747160305,5448929.795830341,5284850.083693433
+1,Deaths,1,Global,3,Both,22,All Ages,494,Stroke,2,Percent,2004,0.10430913933455452,0.1060815963854776,0.10302545641379043
+1,Deaths,1,Global,3,Both,22,All Ages,494,Stroke,3,Rate,2004,82.1889119025066,83.64855186440066,81.12970305833183
+1,Deaths,1,Global,3,Both,22,All Ages,491,Cardiovascular diseases,1,Number,2004,14404858.48884259,14601238.628424924,14240810.798651762
+1,Deaths,1,Global,3,Both,22,All Ages,491,Cardiovascular diseases,2,Percent,2004,0.2806504283144209,0.28455981261858704,0.27736782452432207
+1,Deaths,1,Global,3,Both,22,All Ages,491,Cardiovascular diseases,3,Rate,2004,221.13435069861862,224.14905540330466,218.61599347337764
+1,Deaths,1,Global,3,Both,22,All Ages,494,Stroke,1,Number,2005,5374871.787844589,5470647.037546086,5302609.66090692
+1,Deaths,1,Global,3,Both,22,All Ages,494,Stroke,2,Percent,2005,0.10452258884217383,0.10631029480953097,0.10324574727719829
+1,Deaths,1,Global,3,Both,22,All Ages,494,Stroke,3,Rate,2005,81.46726034383673,82.91893165989943,80.37197886725467
+1,Deaths,1,Global,3,Both,22,All Ages,491,Cardiovascular diseases,1,Number,2005,14607808.954244645,14808240.845303278,14437005.793050209
+1,Deaths,1,Global,3,Both,22,All Ages,491,Cardiovascular diseases,2,Percent,2005,0.28407135075615303,0.28782376724877407,0.2807187356435656
+1,Deaths,1,Global,3,Both,22,All Ages,491,Cardiovascular diseases,3,Rate,2005,221.4114535382645,224.44941196678147,218.82257957999687
+1,Deaths,1,Global,3,Both,22,All Ages,491,Cardiovascular diseases,1,Number,2006,14551012.886583,14772821.197975162,14385106.489972452
+1,Deaths,1,Global,3,Both,22,All Ages,491,Cardiovascular diseases,2,Percent,2006,0.28472149822540915,0.28886270715633444,0.2815820621986894
+1,Deaths,1,Global,3,Both,22,All Ages,491,Cardiovascular diseases,3,Rate,2006,217.77385912544827,221.09349414566802,215.29086522494865
+1,Deaths,1,Global,3,Both,22,All Ages,494,Stroke,1,Number,2006,5285612.904740721,5393016.135454136,5217942.400658522
+1,Deaths,1,Global,3,Both,22,All Ages,494,Stroke,2,Percent,2006,0.10342419831493826,0.10546306507052014,0.10225169459659833
+1,Deaths,1,Global,3,Both,22,All Ages,494,Stroke,3,Rate,2006,79.10571786861779,80.71313971734477,78.09294529135391
+1,Deaths,1,Global,3,Both,22,All Ages,494,Stroke,1,Number,2008,5367686.012581761,5475465.245318421,5300440.171625448
+1,Deaths,1,Global,3,Both,22,All Ages,494,Stroke,2,Percent,2008,0.10341705298845344,0.10544207767453206,0.10221125003748492
+1,Deaths,1,Global,3,Both,22,All Ages,494,Stroke,3,Rate,2008,78.28479110774413,79.8566927988574,77.30404696589416
+1,Deaths,1,Global,3,Both,22,All Ages,491,Cardiovascular diseases,1,Number,2007,14687670.808399944,14908825.788125426,14523642.809311017
+1,Deaths,1,Global,3,Both,22,All Ages,491,Cardiovascular diseases,2,Percent,2007,0.28683080659533333,0.2909693984265147,0.2837518260748771
+1,Deaths,1,Global,3,Both,22,All Ages,491,Cardiovascular diseases,3,Rate,2007,217.00842000238967,220.27595597538001,214.58492771537
+1,Deaths,1,Global,3,Both,22,All Ages,491,Cardiovascular diseases,1,Number,2008,15008284.234172186,15217130.038251892,14835195.358102817
+1,Deaths,1,Global,3,Both,22,All Ages,491,Cardiovascular diseases,2,Percent,2008,0.28915873366539985,0.2930563393900077,0.2858917029921092
+1,Deaths,1,Global,3,Both,22,All Ages,491,Cardiovascular diseases,3,Rate,2008,218.8876907859041,221.93359364009223,216.36328334582598
+1,Deaths,1,Global,3,Both,22,All Ages,494,Stroke,1,Number,2007,5287179.249516727,5396469.6945052305,5219453.3872014005
+1,Deaths,1,Global,3,Both,22,All Ages,494,Stroke,2,Percent,2007,0.10325158010758227,0.10532900460394808,0.10202869017956624
+1,Deaths,1,Global,3,Both,22,All Ages,494,Stroke,3,Rate,2007,78.11738363245887,79.73213569884838,77.11674285244196
+1,Deaths,1,Global,3,Both,22,All Ages,491,Cardiovascular diseases,1,Number,2010,15619617.477994453,15830879.298943482,15431272.190145927
+1,Deaths,1,Global,3,Both,22,All Ages,491,Cardiovascular diseases,2,Percent,2010,0.29561322008814744,0.29922788953425483,0.2919272238438991
+1,Deaths,1,Global,3,Both,22,All Ages,491,Cardiovascular diseases,3,Rate,2010,222.0927558977321,225.096652766311,219.41470542066003
+1,Deaths,1,Global,3,Both,22,All Ages,494,Stroke,1,Number,2009,5439943.464102981,5551188.048967282,5371500.780034423
+1,Deaths,1,Global,3,Both,22,All Ages,494,Stroke,2,Percent,2009,0.1044699870241218,0.10651627585316455,0.10318471490228473
+1,Deaths,1,Global,3,Both,22,All Ages,494,Stroke,3,Rate,2009,78.31999054840648,79.92160183216816,77.3346070780212
+1,Deaths,1,Global,3,Both,22,All Ages,491,Cardiovascular diseases,1,Number,2009,15274314.389785398,15485365.628785841,15094977.174241286
+1,Deaths,1,Global,3,Both,22,All Ages,491,Cardiovascular diseases,2,Percent,2009,0.29333178918894787,0.29721369058568203,0.289895170827764
+1,Deaths,1,Global,3,Both,22,All Ages,491,Cardiovascular diseases,3,Rate,2009,219.90746163731322,222.9460099517985,217.32550667416407
+1,Deaths,1,Global,3,Both,22,All Ages,494,Stroke,1,Number,2010,5532840.514234067,5638753.726146862,5461415.467824082
+1,Deaths,1,Global,3,Both,22,All Ages,494,Stroke,2,Percent,2010,0.10471316390080865,0.10671065302139573,0.10337154487149089
+1,Deaths,1,Global,3,Both,22,All Ages,494,Stroke,3,Rate,2010,78.67054359558145,80.17650602730137,77.65496268140969
+1,Deaths,1,Global,3,Both,22,All Ages,494,Stroke,1,Number,2013,5656908.223235965,5780376.3836795,5574012.083510151
+1,Deaths,1,Global,3,Both,22,All Ages,494,Stroke,2,Percent,2013,0.10618587692140338,0.10852278135271873,0.10481142324945289
+1,Deaths,1,Global,3,Both,22,All Ages,494,Stroke,3,Rate,2013,77.51731199197006,79.20921144242662,76.3813759519153
+1,Deaths,1,Global,3,Both,22,All Ages,491,Cardiovascular diseases,1,Number,2011,15859735.274359424,16062672.03377754,15665380.582588032
+1,Deaths,1,Global,3,Both,22,All Ages,491,Cardiovascular diseases,2,Percent,2011,0.2998416541167902,0.3034337808785519,0.2960765027981207
+1,Deaths,1,Global,3,Both,22,All Ages,491,Cardiovascular diseases,3,Rate,2011,222.75150528881858,225.6017715673418,220.02177497471797
+1,Deaths,1,Global,3,Both,22,All Ages,494,Stroke,1,Number,2011,5578469.453698309,5688437.138682738,5505002.533255772
+1,Deaths,1,Global,3,Both,22,All Ages,494,Stroke,2,Percent,2011,0.10546557322822366,0.10753711517557996,0.1040648559029628
+1,Deaths,1,Global,3,Both,22,All Ages,494,Stroke,3,Rate,2011,78.35013930074437,79.89464599897464,77.3182893464789
+1,Deaths,1,Global,3,Both,22,All Ages,491,Cardiovascular diseases,1,Number,2014,16628359.20072685,16840346.130085204,16404076.787681645
+1,Deaths,1,Global,3,Both,22,All Ages,491,Cardiovascular diseases,2,Percent,2014,0.30829895037714306,0.31195898231824104,0.30466518352008304
+1,Deaths,1,Global,3,Both,22,All Ages,491,Cardiovascular diseases,3,Rate,2014,225.15363190398446,228.02400693528185,222.11677184703387
+1,Deaths,1,Global,3,Both,22,All Ages,491,Cardiovascular diseases,1,Number,2013,16284022.18199247,16488258.203525687,16079764.671191053
+1,Deaths,1,Global,3,Both,22,All Ages,491,Cardiovascular diseases,2,Percent,2013,0.305667954726761,0.30942425058521905,0.301987618375416
+1,Deaths,1,Global,3,Both,22,All Ages,491,Cardiovascular diseases,3,Rate,2013,223.1419669813188,225.9406384068442,220.34300108569772
+1,Deaths,1,Global,3,Both,22,All Ages,491,Cardiovascular diseases,1,Number,2015,17139990.067318738,17348436.049886506,16910823.57637167
+1,Deaths,1,Global,3,Both,22,All Ages,491,Cardiovascular diseases,2,Percent,2015,0.3126484408030864,0.3160319733518843,0.30868550128996014
+1,Deaths,1,Global,3,Both,22,All Ages,491,Cardiovascular diseases,3,Rate,2015,229.47633973177253,232.26708937185853,226.40817648750235
+1,Deaths,1,Global,3,Both,22,All Ages,494,Stroke,1,Number,2012,5638061.941419268,5749396.946466337,5558251.393561714
+1,Deaths,1,Global,3,Both,22,All Ages,494,Stroke,2,Percent,2012,0.10617376706975469,0.10829590205998352,0.10481954714579521
+1,Deaths,1,Global,3,Both,22,All Ages,494,Stroke,3,Rate,2012,78.21834217005497,79.76292249051963,77.1111090807481
+1,Deaths,1,Global,3,Both,22,All Ages,494,Stroke,1,Number,2014,5775955.2639337145,5905716.555634843,5684474.230031417
+1,Deaths,1,Global,3,Both,22,All Ages,494,Stroke,2,Percent,2014,0.10708918019222646,0.10950301429627089,0.10557413316883375
+1,Deaths,1,Global,3,Both,22,All Ages,494,Stroke,3,Rate,2014,78.20839625191442,79.9654082189031,76.96971197857181
+1,Deaths,1,Global,3,Both,22,All Ages,494,Stroke,1,Number,2015,5938944.713532937,6071756.6715745,5841415.9285148475
+1,Deaths,1,Global,3,Both,22,All Ages,494,Stroke,2,Percent,2015,0.10833125306849958,0.11071046923153023,0.10677922949972266
+1,Deaths,1,Global,3,Both,22,All Ages,494,Stroke,3,Rate,2015,79.51272371676986,81.2908578862934,78.20697333322056
+1,Deaths,1,Global,3,Both,22,All Ages,491,Cardiovascular diseases,1,Number,2012,16115488.915250087,16314489.678175183,15918773.955337605
+1,Deaths,1,Global,3,Both,22,All Ages,491,Cardiovascular diseases,2,Percent,2012,0.3034808745658629,0.30706792051618287,0.29980826071176575
+1,Deaths,1,Global,3,Both,22,All Ages,491,Cardiovascular diseases,3,Rate,2012,223.57449054443146,226.33528138502635,220.84541126075652
+1,Deaths,1,Global,3,Both,22,All Ages,494,Stroke,1,Number,2017,6167291.952206335,6327598.135240524,6044259.5835138485
+1,Deaths,1,Global,3,Both,22,All Ages,494,Stroke,2,Percent,2017,0.1102370831646027,0.11288453898278307,0.10842082889596616
+1,Deaths,1,Global,3,Both,22,All Ages,494,Stroke,3,Rate,2017,80.71879316061595,82.81691365352931,79.10852006222673
+1,Deaths,1,Global,3,Both,22,All Ages,491,Cardiovascular diseases,1,Number,2017,17790948.89527077,18042674.269939076,17527067.68421553
+1,Deaths,1,Global,3,Both,22,All Ages,491,Cardiovascular diseases,2,Percent,2017,0.31800515488494535,0.3218048944522763,0.31407375694336365
+1,Deaths,1,Global,3,Both,22,All Ages,491,Cardiovascular diseases,3,Rate,2017,232.8516203120076,236.14625410080677,229.39788842138057
+1,Deaths,1,Global,3,Both,22,All Ages,494,Stroke,1,Number,2016,6079566.544209515,6225415.503493767,5973706.007689591
+1,Deaths,1,Global,3,Both,22,All Ages,494,Stroke,2,Percent,2016,0.1095229689266386,0.11191179671324303,0.10784241508428581
+1,Deaths,1,Global,3,Both,22,All Ages,494,Stroke,3,Rate,2016,80.47614699818146,82.4067718546642,79.07485497574322
+1,Deaths,1,Global,3,Both,22,All Ages,491,Cardiovascular diseases,1,Number,2016,17524369.766436443,17738372.849992845,17279042.28178985
+1,Deaths,1,Global,3,Both,22,All Ages,491,Cardiovascular diseases,2,Percent,2016,0.3157015056575244,0.31891990297155787,0.3116463617665548
+1,Deaths,1,Global,3,Both,22,All Ages,491,Cardiovascular diseases,3,Rate,2016,231.97274791201377,234.80553927717347,228.72531068543782
