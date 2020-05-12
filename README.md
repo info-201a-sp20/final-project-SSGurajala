@@ -24,3 +24,16 @@ How does disease burden differ between cardiovascular disease, chronic respirato
 How does disease burden for cardiovascular disease, chronic respiratory disease, and neoplasms change over time?
 
 # Finding Data 
+
+Data URL: http://ghdx.healthdata.org/gbd-results-tool
+
+According to the information sources page from the website, GHDx uses various data sources to populate their information, including a list of open data sites from different countries and repositories for specific resources, including:
+- Population figures are estimated based on World Population Prospects: 2015 Revision, from the United Nations Population Division, and the WHO Human Mortality Database.
+- Country start and end dates, notes, and sovereignty come from the CIA World Factbook.
+- Organization start and end dates and acronyms generally come from the organization's website, as do the city and country of their location.
+
+All three datasets: 
+Observations (rows): 155988 
+Features (columns): 10
+
+With these three datasets, we can answer how income level tracks with disease burden, how disease burden differs between cardiovascular disease, chronic respiratory disease, and neoplasms globally, and how disease burden for cardiovascular disease, chronic respiratory disease, and neoplasms change over time.
