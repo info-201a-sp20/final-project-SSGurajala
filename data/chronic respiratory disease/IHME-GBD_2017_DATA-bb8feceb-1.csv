@@ -1,7 +1,0 @@
-measure,location,sex,age,cause,metric,year,val,upper,lower
-Deaths,Global,Both,All Ages,Chronic respiratory diseases,Number,2017,3914196.029570985,4044819.2283544685,3790578.821676803
-Deaths,Global,Both,All Ages,Chronic respiratory diseases,Percent,2017,0.06996454217618855,0.07225616452565996,0.06760992865203584
-Deaths,Global,Both,All Ages,Chronic respiratory diseases,Rate,2017,51.22980753132887,52.939430984587,49.61187993645741
-DALYs (Disability-Adjusted Life Years),Global,Both,All Ages,Chronic respiratory diseases,Number,2017,112316762.9952717,119692782.8406331,104649690.54419719
-DALYs (Disability-Adjusted Life Years),Global,Both,All Ages,Chronic respiratory diseases,Percent,2017,0.04498360947141283,0.0477533979889153,0.042041365159738955
-DALYs (Disability-Adjusted Life Years),Global,Both,All Ages,Chronic respiratory diseases,Rate,2017,1470.0250338305902,1566.5639077577973,1369.676803177372
