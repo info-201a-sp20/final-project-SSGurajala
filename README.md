@@ -1,3 +1,5 @@
+# Domain of Interest
+
 ## Why are you interested in this field/domain?
 
 While infectious diseases have the potential to bring about acute suffering (as seen currently with COVID-19), many of the greatest killers in American history, especially in the past couple of decades, have been non-infectious chronic diseases brought about by poor lifestyle choices. We want to analyze data about this field to better understand how these diseases are brought about and how they might be prevented. 
@@ -16,4 +18,6 @@ How does income level/financial stability track with disease burden globally?
 
 How does disease burden differ between cardiovascular disease, chronic respiratory disease, and neoplasms globally? 
 
-How can we prevent unnecessary non-infectious diseases from occuring as often in the future?
+How does disease burden for cardiovascular disease, chronic respiratory disease, and neoplasms change over time?
+
+# Finding Data 
