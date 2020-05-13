@@ -4,7 +4,7 @@
 
 ### Why are you interested in this field/domain?
 
-While infectious diseases have the potential to bring about acute suffering (as seen currently with COVID-19), many of the greatest killers in American history, especially in the past couple of decades, have been non-infectious chronic diseases brought about by poor lifestyle choices. We want to analyze data about this field to better understand how these diseases are brought about and how they might be prevented.
+While infectious diseases have the potential to bring about acute suffering (as seen currently with COVID-19), many of the greatest killers globally, especially in the past couple of decades, have been non-infectious chronic diseases brought about by environmental factors, lifestyle choices, and a lack of education. We want to analyze data in the field of noninfections chronic diseases to better understand how these diseases have affected and continue to affect the lives of people worldwide.
 
 ### What other examples of data driven project have you found related to this domain?
 
@@ -37,7 +37,7 @@ We want to track disease burden over time by analyzing changes in disability adj
 ## Finding Data
 
 ### Neoplasms data set
-Data URL: http://ghdx.healthdata.org/gbd-results-tool
+[Data](URL: http://ghdx.healthdata.org/gbd-results-tool)
 
 This data was taken from the GHDx data selecting tool for the 2017 IHME Global Burden of Disease Study; this data was generated via compilation of various neoplasm related publication data sets and mortality and other health metric data released by individual countries.
 
@@ -47,7 +47,7 @@ This data was taken from the GHDx data selecting tool for the 2017 IHME Global B
 This data set can be used to answer how neoplasm disease burden tracks with income level/financial stability, to determine how neoplasm disease burden differs from cardiovascular disease burden and respiratory disease burden, and how disease burden for cardiovascular disease changes over time.
 
 ### cardiovascular data set
-Data URL: http://ghdx.healthdata.org/gbd-results-tool
+[Data](http://ghdx.healthdata.org/gbd-results-tool)
 
 This data was also taken from the GHDX data selecting tool from the 2017 Global Burden of Disease Study; the GBD generated this data by compiling data from the WHO mortality data base as well as other academic sources.
 
@@ -57,7 +57,7 @@ This data was also taken from the GHDX data selecting tool from the 2017 Global 
 This data set can be used to answer how cardiovascular disease burden has changed over time, how it differs from disease burden for respiratory disease and neoplasms, and it tracks with general prosperity globally.
 
 ### chronic respiratory disease data set
-Data URL: http://ghdx.healthdata.org/gbd-results-tool
+[Data](http://ghdx.healthdata.org/gbd-results-tool)
 
 This dataset was taken from the GDHX data selecting tool from the 2017 Global Burden of Disease Study; these data were generated from compiling sources like the WHO Mortality Data Sets, academic publications, and data releases from individual countries health ministries and related institutions.
 
@@ -65,3 +65,13 @@ This dataset was taken from the GDHX data selecting tool from the 2017 Global Bu
 - Features (columns): 10
 
 We can use this data set to see how chronic respiratory disease burden differs from disease burden for cardiovascular disease and neoplasms geographically, how it tracks with the SDI of countries, and how it has changed over the time period specified in the data set.
+
+### WHO NCD dataset
+[Data](https://apps.who.int/gho/data/node.main?lang=en)
+
+The data is collected from the Global Health Observatory (GHO) and given to the World Health Organization (WHO), who then collects and combines the data for public use. Data collection methods involved civil registration authorities, censuses, surveys, administration, surveillance and reporting from WHO member states.
+
+Observations (rows): 3661
+Features (columns): 6
+
+We can use this data set to see how the mortality portion of the disease burden of  chronic respiratory disease, cardiovascular disease, neoplasms and other diseases affects both sexes globally.
