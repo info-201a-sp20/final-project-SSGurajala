@@ -37,7 +37,7 @@ We want to track disease burden over time by analyzing changes in disability adj
 ## Finding Data
 
 ### Neoplasms data set
-[Data](URL: http://ghdx.healthdata.org/gbd-results-tool)
+[Data](http://ghdx.healthdata.org/gbd-results-tool)
 
 This data was taken from the GHDx data selecting tool for the 2017 IHME Global Burden of Disease Study; this data was generated via compilation of various neoplasm related publication data sets and mortality and other health metric data released by individual countries.
 
