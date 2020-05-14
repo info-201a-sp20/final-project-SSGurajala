@@ -45,7 +45,7 @@ Features (columns): 10
 
 This data set can be used to answer how cardiovascular disease burden has changed over time, how it differs from disease burden for respiratory disease and neoplasms, and it tracks with general prosperity globally.
 
-**chronic respiratory disease data set***
+**chronic respiratory disease data set**
 Data URL: http://ghdx.healthdata.org/gbd-results-tool
 
 This dataset was taken from the GDHX data selecting tool from the 2017 Global Burden of Disease Study; these data were generated from compiling sources like the WHO Mortality Data Sets, academic publications, and data releases from individual countries health ministries and related institutions.
@@ -54,3 +54,14 @@ Observations (rows): 155988
 Features (columns): 10
 
 We can use this data set to see how chronic respiratory disease burden differs from disease burden for cardiovascular disease and neoplasms geographically, how it tracks with the SDI of countries, and how it has changed over the time period specified in the data set.
+
+**WHO NCD data set**
+Data URL: https://www.who.int/data/gho
+
+The data is collected from the Global Health Observatory (GHO) and given to the World Health Organization (WHO), who then collects and combines the data for public use. Data collection methods involved civil registration authorities, censuses, surveys, administration, surveillance and reporting from WHO member states. 
+
+Observations (rows): 3661
+Features (columns): 6
+
+We can use this data set to see how various disease burdens such as chronic respiratory disease, cardiovascular disease, neoplasms and other diseases affects both sexes globally.
+
