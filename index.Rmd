@@ -1,0 +1,36 @@
+---
+title: "Summary of Dataset"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+library(knitr)
+knitr::opts_chunk$set(echo = TRUE)
+cardiovascular <- read.csv("data/cardiovascular disease & stroke/IHME-GBD_2017_DATA-5b611b4f-1.csv", stringsAsFactors = FALSE)
+neoplasm <- read.csv("data/neoplasm/IHME-GBD_2017_DATA-33907908-1.csv",
+                     stringsAsFactors = FALSE)
+respiratory <- read.csv("data/chronic respiratory disease/IHME-GBD_2017_DATA-bb8feceb-1.csv",
+                        stringsAsFactors = FALSE)
+```
+Write an introductory paragraph explaining the domain/data set (feel free to borrow from the brainstorm part of the assignment)
+## Introduction
+We are interested in exploring how different non-infectious chronic diseases can affect
+people's daily lives and we picked three data sets in reponse to it. 
+
+This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
+
+When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
+
+```{r cars}
+summary(cars)
+```
+
+## Including Plots
+
+You can also embed plots, for example:
+
+```{r pressure, echo=FALSE}
+plot(pressure)
+```
+
+Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
