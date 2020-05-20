@@ -15,6 +15,7 @@ scatter_plot_2017 <- function(neoplasms_data, sdi_data) {
     select(val, SDI.Index.Value, measure)
 #Making the plot
   library(ggplot2)
+  install.packages("viridis")
   library(viridis)
   scatter_plot <- ggplot(plotting_data, aes(x = val, y = SDI.Index.Value)) + 
     geom_point(aes(color = SDI.Index.Value)) +
