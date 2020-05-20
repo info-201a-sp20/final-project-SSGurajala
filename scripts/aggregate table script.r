@@ -25,6 +25,7 @@ aggregate <- function(dataset) {
   
   table <- left_join(YYLs, Deaths) %>%
     left_join(DALYs)
+  
   kable(table, col.names = c("Location", "Years of Life Lost", "Deaths", "Disability-Adjusted Life Years"))
 }
 
