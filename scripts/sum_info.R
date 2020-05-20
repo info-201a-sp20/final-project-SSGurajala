@@ -20,7 +20,8 @@ disease_summary_info <- function(db) {
   db_year <- db %>%
     select(year)
   db_year <- unique(db_year)
-  ret$year_range <- c(db_year)
+  ret$year_range$min <- min(db_year)
+  ret$year_range$max <- max(db_year)
   
   # gender range(categories)
   db_gender <- db %>%
