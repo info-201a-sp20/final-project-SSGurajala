@@ -44,7 +44,7 @@ This data was taken from the GHDx data selecting tool for the 2017 IHME Global B
 - Observations (rows): 155988
 - Features (columns): 10
 
-This data set can be used to answer how neoplasm disease burden tracks with income level/financial stability, to determine how neoplasm disease burden differs from cardiovascular disease burden and respiratory disease burden, and how disease burden for neoplasm disease changes over time.
+This data set can be used to answer how neoplasm disease burden tracks with income level/financial stability, to determine how neoplasm disease burden differs from cardiovascular disease burden and respiratory disease burden, and how disease burden for neoplasms has changed over time.
 
 ### Cardiovascular Data Set
 [Data](http://ghdx.healthdata.org/gbd-results-tool)
