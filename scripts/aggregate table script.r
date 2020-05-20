@@ -1,6 +1,6 @@
 ## Aggregate Table Script
 
-dataset <- read.csv("final-project-SSGurajala/data/neoplasm/IHME-GBD_2017_DATA-f3575e9c-1.csv", stringsAsFactors=FALSE)
+dataset <- read.csv("../data/neoplasm/IHME-GBD_2017_DATA-f3575e9c-1.csv", stringsAsFactors=FALSE)
 
 #finds average YYLs per country by percent (1990-2017)
 
