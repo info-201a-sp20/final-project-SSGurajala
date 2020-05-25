@@ -1,6 +1,6 @@
 ## Aggregate Table Script
 
-dataset <- read.csv("../data/neoplasm/neoplasms_data.csv", stringsAsFactors=FALSE)
+dataset <- read.csv("data/neoplasm/neoplasms_data.csv", stringsAsFactors=FALSE)
 
 #finds average YYLs per country by percent (1990-2017)
 
@@ -26,8 +26,9 @@ aggregate <- function(dataset) {
   table <- left_join(YYLs, Deaths) %>%
     left_join(DALYs)
   
-  kable(table, col.names = c("Location", "Years of Life Lost", "Deaths", "Disability-Adjusted Life Years"))
+  kable(table, col.names = c("Location", "Years of Life Lost", 
+  "Deaths", "Disability-Adjusted Life Years"))
 }
 
-aggregate(dataset)
+aggregate_table <- aggregate(dataset)
 

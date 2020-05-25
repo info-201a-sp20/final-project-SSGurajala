@@ -7,7 +7,12 @@ output: html_document
 library(knitr)
 knitr::opts_chunk$set(echo = TRUE)
 source("scripts/sum_info.R")
+source("scripts/chart1script.R")
+source("scripts/chart2script.R")
+source("scripts/chart3script.R")
+source("scripts/aggregate table script.r")
 neoplasm_df <- read.csv("data/neoplasm/neoplasms_data.csv", stringsAsFactors = FALSE)
+sdi_df <- read.csv("data/sdi/data_sdi.csv", stringsAsFactors = FALSE)
 ```
 ## Introduction of Domain/Data set
 Compared to infectious diseases, non-infectious chronic diseases might seem like they don't cause imminent pain but in fact, the impact brought by chronic diseases can also be overwhelming on patients. We are interested in analyzing data on how different non-infectious chronic diseases can affect the lives of people all around the world
@@ -24,7 +29,24 @@ gender <- summary_info$gender_category
 ```
 
 ## Summary
-Based on the data, we concluded some important summary information about the neoplasm data set we selected. There are `r case_num` of neoplasm cases in total In order to better measure the data presented, we selected ten attributes: `r attributes`. We also measure this the cases of neoplasm based on 3 types: `r measure_type`. The earliest year that neoplasm cases happened recorded by our data set is `r year_early`, and the latest is `r year_late`. Moreover, neoplasm has happened on `r gender` genders.
+Based on the data, we concluded some important summary information about the neoplasm data set we selected. There are `r case_num` of neoplasm cases in total In order to better measure the data presented, we selected ten attributes: `r attributes`. We also measure this the cases of neoplasm based on 3 types: `r measure_type`. The earliest year that neoplasm cases happened recorded by our data set is `r year_early`, and the latest is `r year_late`. Moreover, neoplasm has occured to `r gender` genders.
+
+
+## Table of Interest
+```{r table, echo=FALSE}
+aggregate_table
+```
+
+#### Observations
+In this table, we included four columns with provides relevant information about neoplasm: location, mean of years of life lost, mean of deaths, and mean of disability-adjusted life years. The names of the location where neoplasm occured are sorted in alphebetic order. We found that places in Japan generally have higher means of years of life lost compared to other countries and regions.
+
+## Charts
+```{r charts, echo=FALSE}
+chart1 <- scatter_plot_2017(neoplasm_df, sdi_df)
+chart1
+```
+
+
 
 
 
