@@ -6,31 +6,25 @@ output: html_document
 ```{r setup, include=FALSE}
 library(knitr)
 knitr::opts_chunk$set(echo = TRUE)
-cardiovascular <- read.csv("data/cardiovascular disease & stroke/IHME-GBD_2017_DATA-5b611b4f-1.csv", stringsAsFactors = FALSE)
-neoplasm <- read.csv("data/neoplasm/IHME-GBD_2017_DATA-33907908-1.csv",
-                     stringsAsFactors = FALSE)
-respiratory <- read.csv("data/chronic respiratory disease/IHME-GBD_2017_DATA-bb8feceb-1.csv",
-                        stringsAsFactors = FALSE)
+source("scripts/sum_info.R")
+neoplasm_df <- read.csv("data/neoplasm/neoplasms_data.csv", stringsAsFactors = FALSE)
 ```
-Write an introductory paragraph explaining the domain/data set (feel free to borrow from the brainstorm part of the assignment)
-## Introduction
-We are interested in exploring how different non-infectious chronic diseases can affect
-people's daily lives and we picked three data sets in reponse to it. 
+## Introduction of Domain/Data set
+Compared to infectious diseases, non-infectious chronic diseases might seem like they don't cause imminent pain but in fact, the impact brought by chronic diseases can also be overwhelming on patients. We are interested in analyzing data on how different non-infectious chronic diseases can affect the lives of people all around the world
+and we decided to focus on data of neoplasm. This data was taken from the GHDx data selecting tool for the 2017 IHME Global Burden of Disease Study; this data was generated via compilation of various neoplasm related publication data sets and mortality and other health metric data released by individual countries.
 
-This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
-
-When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
-
-```{r cars}
-summary(cars)
+```{r summary, include=FALSE}
+summary_info <- disease_summary_info(neoplasm_df)
+case_num <- summary_info[[1]]
+attributes <- summary_info$attr_name
+measure_type <- summary_info$measure_type$measure
+year_early <- summary_info$year_range$min
+year_late <- summary_info$year_range$max
+gender <- summary_info$gender_category
 ```
 
-## Including Plots
+## Summary
+Based on the data, we concluded some important summary information about the neoplasm data set we selected. There are `r case_num` of neoplasm cases in total In order to better measure the data presented, we selected ten attributes: `r attributes`. We also measure this the cases of neoplasm based on 3 types: `r measure_type`. The earliest year that neoplasm cases happened recorded by our data set is `r year_early`, and the latest is `r year_late`. Moreover, neoplasm has happened on `r gender` genders.
 
-You can also embed plots, for example:
 
-```{r pressure, echo=FALSE}
-plot(pressure)
-```
 
-Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
