@@ -1,10 +1,11 @@
 ---
-title: "Summary of Dataset"
+title: "Summary of Data set"
 output: html_document
 ---
 
 ```{r setup, include=FALSE}
 library(knitr)
+library(viridis)
 knitr::opts_chunk$set(echo = TRUE)
 source("scripts/sum_info.R")
 source("scripts/chart1script.R")
@@ -41,12 +42,32 @@ aggregate_table
 In this table, we included four columns with provides relevant information about neoplasm: location, mean of years of life lost, mean of deaths, and mean of disability-adjusted life years. The names of the location where neoplasm occured are sorted in alphebetic order. We found that places in Japan generally have higher means of years of life lost compared to other countries and regions.
 
 ## Charts
-```{r charts, echo=FALSE}
+### Chart 1
+```{r chart1, include=FALSE}
 chart1 <- scatter_plot_2017(neoplasm_df, sdi_df)
+```
+
+```{r chart-1, echo=FALSE}
 chart1
 ```
 
+This scatter plot was intended to show the disease burden of neoplasms, including disability-adjusted life years, years of life lost, and deaths, versus SDI index value for the year of 2017. One observation we found is that the death rates are less scattered compared to the DALYs and YLLs.
 
+### Chart 2
+```{r chart2, echo=FALSE}
+chart2 <- density_histogram_2017(neoplasm_df)
+chart2
+```
+
+This chart shows the the global density distribution of disability-adjusted life years in 2017 using bar graph. The density reaches the highest at the point where the DALY rate per 100,000 is approximately 2000 and 6000.
+
+### Chart 3
+```{r chart3, echo=FALSE}
+chart3 <- line_graph(neoplasm_df)
+chart3
+```
+
+The line graph displays the global disability-adjusted life year rate per 100,000 due to neoplasms from 1990 to 2017. The rate went through a huge decline from 1995 to roughly 2007, and went back up ever since. The lowest DALY rate occured around 2007 and the highest occured in 2017.
 
 
 

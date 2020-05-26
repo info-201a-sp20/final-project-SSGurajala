@@ -19,12 +19,12 @@ scatter_plot_2017 <- function(neoplasms_data, sdi_data) {
     select(val, SDI.Index.Value, measure)
   # Making the plot
   library(ggplot2)
-  install.packages("viridis")
+  #install.packages("viridis")
   library(viridis)
   scatter_plot <- ggplot(plotting_data, aes(x = val, y = SDI.Index.Value)) +
     geom_point(aes(color = SDI.Index.Value)) +
     scale_color_viridis(option = "inferno") +
-    scale_x_continuous(name = "Rate per 100,000 populatoin") +
+    scale_x_continuous(name = "Rate per 100,000 population") +
     scale_y_continuous(name = "SDI Index Value") +
     ggtitle("Disease Burden of Neoplasms vs SDI Index Value
             for 402 locations in 2017") +
