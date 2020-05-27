@@ -13,13 +13,9 @@ scatter_plot_2017 <- function(neoplasms_data, sdi_data) {
     select(Location, SDI.Index.Value) %>%
     rename(location = Location)
   # Join data sets
-  #plotting_data <- na.omit(left_join(data_set_2, SDI_data_to_be_plotted)) %>%
-    #select(val, SDI.Index.Value, measure)
   plotting_data <- na.omit(left_join(neoplasms_data_1, sdi_data_1)) %>%
     select(val, SDI.Index.Value, measure)
   # Making the plot
-  library(ggplot2)
-  #install.packages("viridis")
   library(viridis)
   scatter_plot <- ggplot(plotting_data, aes(x = val, y = SDI.Index.Value)) +
     geom_point(aes(color = SDI.Index.Value)) +

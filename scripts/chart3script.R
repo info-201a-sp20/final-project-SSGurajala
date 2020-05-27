@@ -7,7 +7,7 @@ line_graph <- function(dataset) {
     filter(metric == "Rate") %>%
     filter(location == "Global") %>%
     select(year, val)
-#Generating 
+#Generating
   library(ggplot2)
   line_graph <- ggplot(plotting_data, aes(x = year, y = val)) +
     geom_line(color = "red", size = 1.5) +

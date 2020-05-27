@@ -1,10 +1,11 @@
 ---
-title: "Summary of Data set"
+title: "Midpoint Deliverable"
 output: html_document
 ---
 
 ```{r setup, include=FALSE}
 library(knitr)
+library(ggplot2)
 library(viridis)
 knitr::opts_chunk$set(echo = TRUE)
 source("scripts/sum_info.R")
@@ -12,12 +13,15 @@ source("scripts/chart1script.R")
 source("scripts/chart2script.R")
 source("scripts/chart3script.R")
 source("scripts/aggregate table script.r")
-neoplasm_df <- read.csv("data/neoplasm/neoplasms_data.csv", stringsAsFactors = FALSE)
+neoplasm_df <- read.csv(
+  "data/neoplasm/neoplasms_data.csv",
+  stringsAsFactors = FALSE
+  )
 sdi_df <- read.csv("data/sdi/data_sdi.csv", stringsAsFactors = FALSE)
 ```
+
 ## Introduction of Domain/Data set
-Compared to infectious diseases, non-infectious chronic diseases might seem like they don't cause imminent pain but in fact, the impact brought by chronic diseases can also be overwhelming on patients. We are interested in analyzing data on how different non-infectious chronic diseases can affect the lives of people all around the world
-and we decided to focus on data of neoplasm. This data was taken from the GHDx data selecting tool for the 2017 IHME Global Burden of Disease Study; this data was generated via compilation of various neoplasm related publication data sets and mortality and other health metric data released by individual countries.
+The acute nature of infectious disease often draws our attention because of the imminent pain and suffering they bring to millions around the globe, as seen by the current Coronavirus pandemic. However, the physical and mental impact of non-infectious chronic diseases can also be overwhelming to patients, and should not be ignored. We are interested in analyzing data on how different non-infectious chronic diseases can affect the lives of people all around the world. In this example, we are focusing on a neoplasm data set. This data was taken using the GHDx data selecting tool for the 2017 IHME Global Burden of Disease Study and was generated via compilation of various neoplasm-related publication data sets, mortality, and other health metric data released by individual countries.
 
 ```{r summary, include=FALSE}
 summary_info <- disease_summary_info(neoplasm_df)
@@ -30,16 +34,14 @@ gender <- summary_info$gender_category
 ```
 
 ## Summary
-Based on the data, we concluded some important summary information about the neoplasm data set we selected. There are `r case_num` of neoplasm cases in total In order to better measure the data presented, we selected ten attributes: `r attributes`. We also measure this the cases of neoplasm based on 3 types: `r measure_type`. The earliest year that neoplasm cases happened recorded by our data set is `r year_early`, and the latest is `r year_late`. Moreover, neoplasm has occured to `r gender` genders.
+We summarized some important information about the neoplasm data set we selected. There are `r case_num` neoplasm cases in total. In order to better measure the data presented, we selected ten attributes: `r attributes` (metric: how we measured the val (average), lower (lower bound), and upper (upper bound)).  We also measured 3 different types of neoplasm health-related consequences: `r measure_type`. Our data set began recording neoplasm cases in `r year_early`, and goes all the way up to `r year_late`. Moreover, neoplasms have occurred to `r gender` genders (that this data set accounts for).
 
+## Aggregate Table of Interest
+We wanted to see how neoplasms affected each location in our data set. In this table, we included four columns: location (sorted in alphabetical order), average YLLs (Years of Life Lost), average Deaths, and average DALYs (Disability-Adjusted Life Years) per country by percent from 1990 to 2017. We found that there is a direct correlation between a country's SDI and the rate of YYLs, Deaths, and DALYs increasing. 
 
-## Table of Interest
 ```{r table, echo=FALSE}
 aggregate_table
 ```
-
-#### Observations
-In this table, we included four columns with provides relevant information about neoplasm: location, mean of years of life lost, mean of deaths, and mean of disability-adjusted life years. The names of the location where neoplasm occured are sorted in alphebetic order. We found that places in Japan generally have higher means of years of life lost compared to other countries and regions.
 
 ## Charts
 ### Chart 1
@@ -59,7 +61,7 @@ chart2 <- density_histogram_2017(neoplasm_df)
 chart2
 ```
 
-This chart shows the the global density distribution of disability-adjusted life years in 2017 using bar graph. The density reaches the highest at the point where the DALY rate per 100,000 is approximately 2000 and 6000.
+This chart shows the the global density distribution of disability-adjusted life years in 2017 using a bar graph. The density reaches the highest at the point where the DALY rate per 100,000 is approximately 2000 and 6000.
 
 ### Chart 3
 ```{r chart3, echo=FALSE}
@@ -67,7 +69,4 @@ chart3 <- line_graph(neoplasm_df)
 chart3
 ```
 
-The line graph displays the global disability-adjusted life year rate per 100,000 due to neoplasms from 1990 to 2017. The rate went through a huge decline from 1995 to roughly 2007, and went back up ever since. The lowest DALY rate occured around 2007 and the highest occured in 2017.
-
-
-
+The line graph displays the global disability-adjusted life year rate per 100,000 due to neoplasms from 1990 to 2017. The rate went through a huge decline from 1995 to roughly 2007, and went back up ever since. The lowest DALY rate occurred around 2007 and the highest occurred in 2017.

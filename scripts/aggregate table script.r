@@ -1,34 +1,42 @@
 ## Aggregate Table Script
 
-dataset <- read.csv("data/neoplasm/neoplasms_data.csv", stringsAsFactors=FALSE)
+dataset <- read.csv("data/neoplasm/neoplasms_data.csv",
+                    stringsAsFactors = FALSE)
 
-#finds average YYLs per country by percent (1990-2017)
+# finds average YLLs (Years of Life Lost), average Deaths,
+# and average DALYs (Disability-Adjusted Life Years) per
+# country by percent (1990-2017)
 
 aggregate <- function(dataset) {
-  YYLs <- dataset %>%
+
+  #finding average percent YYLs by location
+  years_lost <- dataset %>%
     group_by(location) %>%
-    filter(measure == "YLLs (Years of Life Lost)" 
+    filter(measure == "YLLs (Years of Life Lost)"
            & metric == "Percent") %>%
     summarise(mean_YYLs = mean(val))
-  
-  Deaths <- dataset %>%
+
+  #finding average percent deaths by location
+  deaths <- dataset %>%
     group_by(location) %>%
-    filter(measure == "Deaths" 
+    filter(measure == "Deaths"
            & metric == "Percent") %>%
-    summarise(mean_Deaths = mean(val))
-  
-  DALYs <- dataset %>%
+    summarise(mean_deaths = mean(val))
+
+  #finding average percent DALYs by location
+  disability_adjusted <- dataset %>%
     group_by(location) %>%
-    filter(measure == "DALYs (Disability-Adjusted Life Years)" 
+    filter(measure == "DALYs (Disability-Adjusted Life Years)"
            & metric == "Percent") %>%
     summarise(mean_DALYs = mean(val))
-  
-  table <- left_join(YYLs, Deaths) %>%
-    left_join(DALYs)
-  
-  kable(table, col.names = c("Location", "Years of Life Lost", 
+
+  #combining dataframes
+  table <- left_join(years_lost, deaths) %>%
+    left_join(disability_adjusted)
+
+  #turning dataframe into table
+  kable(table, col.names = c("Location", "Years of Life Lost",
   "Deaths", "Disability-Adjusted Life Years"))
 }
 
 aggregate_table <- aggregate(dataset)
-
