@@ -12,23 +12,12 @@ intro_page <- tabPanel(
       non-infectious diseases have infected or continue to infect the lives of people 
       around the world. So we picked 3 diseases: cardiovascular disease, respitory 
       disease, and neoplasm, and raised three questions that we are interested in 
-      exploring accordingly."),
-    h3("Questions Raised:"),
-    h4("How does income level/financial stability track with disease burden globally?"),
-    p("We want to use the dataset's metric of Social Demographic Index (SDI) to determine 
-      income level and general prosperity and pair that with disability-adjusted life years, 
-      years of life lost to disease, and mortality data to see trends in disease burden and prosperity"), 
-    h4("How does disease burden differ between cardiovascular disease, chronic respiratory disease, 
-       and neoplasms globally?"),
-    p("We want to use the metrics of disability-adjusted life years, years of life lost to disease, 
-      and mortality data to assess disease burden of each disease at the data's most current time, 2017, 
-      and do comparative analyses between the results for each of these diseases."),
-    h4("How does disease burden for cardiovascular disease, chronic respiratory disease, 
-       and neoplasms change over time?"),
-    p("We want to track disease burden over time by analyzing changes in disability-adjusted life years, 
-      years of life lost, and mortality data for each of these diseases over the period 1990 to 2017."),
+      exploring accordingly. The disability-adjusted life year (DALY) is our primary metric for disease 
+      burden, and factors in years lost to ill-health, disability or early death. 
+      This data was taken from the GHDx data selecting tool for the 2017 IHME Global Burden of Disease Study."),
+
     h3("Cardiovascular Disease:"),
-    img(src = "/images/cardiovascular_disease.jpg", alt = "Cardiovascular Disease"),
+    img(src = "/images/mortality-from-ncds-sdgs.png", alt = "mortality map"),
     h3("Respiratory Disease:"),
     img(src = "/images/respiratory_disease.jpg", alt = "Chronic Respiratory Disease"),
     h3("Neoplasm:"),
@@ -38,19 +27,20 @@ intro_page <- tabPanel(
 
 first_page <- tabPanel(
   title = "SDI and DALYs",
+  h1("How does income level/financial stability track with disease burden globally?"),
   sidebarPanel(
     h3("Input:"),
     feature_input <- selectInput(
-      inputId = "Cause_1",              
+      inputId = "Cause_1",
       label = "Selected Cause",
       choices = unique(plot_1_data$cause),
       selected = "Neoplasm"
-    ), 
+    ),
     checkboxInput(
-      inputId = "boxinput1", 
-      label = "Show All Causes", 
+      inputId = "boxinput1",
+      label = "Show All Causes",
       value = FALSE
-      ),
+    ),
     SDI_input <- sliderInput(
       inputId = "SDI",
       label = "Selected SDI",
@@ -60,60 +50,71 @@ first_page <- tabPanel(
     )
   ),
   mainPanel(
+    p("This is a scatter plot that shows the correlation between
+      SDI and population based on location. Users can pick a 
+      cause and SDI range."),
     plotlyOutput(outputId = "scatter_plot")
   )
 )
-  
+
 second_page <- tabPanel(
   title = "Distribution of DALY Rate",
+  h1("How does disease burden differ between cardiovascular disease, chronic respiratory disease, 
+       and neoplasms globally?"),
   sidebarPanel(
     h3("Input:"),
     year_input <- selectInput(
-      inputId = "Year",              
+      inputId = "Year",
       label = "Selected Year",
       choices = unique(plot_2_data$year),
       selected = 2017
     ),
     checkboxInput(
-      inputId = "boxinput2", 
-      label = "Show All Causes", 
+      inputId = "boxinput2",
+      label = "Show All Causes",
       value = FALSE
     ),
     feature_input <- selectInput(
-      inputId = "Cause_2",              
+      inputId = "Cause_2",
       label = "Selected Cause",
       choices = unique(plot_2_data$cause),
       selected = "Neoplasm"
     )
   ),
   mainPanel(
+    p("This is a density distribution of DALY rates. Users can
+      pick a year and cause."),
     plotOutput(outputId = "histogram")
   )
 )
-  
+
 third_page <- tabPanel(
   title = "DALY by Location, 1990-2017",
+  h1("How does disease burden for cardiovascular disease, chronic respiratory disease, 
+       and neoplasms change over time?"),
   sidebarPanel(
     h3("Input:"),
     location_input <- selectInput(
-      inputId = "Location",              
+      inputId = "Location",
       label = "Selected Location",
       choices = unique(plot_3_data$location),
       selected = "Global"
     ),
     checkboxInput(
-      inputId = "boxinput3", 
-      label = "Show All Causes", 
+      inputId = "boxinput3",
+      label = "Show All Causes",
       value = FALSE
     ),
     feature_input <- selectInput(
-      inputId = "Cause_3",              
+      inputId = "Cause_3",
       label = "Selected Cause",
       choices = unique(plot_3_data$cause),
       selected = "Neoplasm"
     )
   ),
   mainPanel(
+    p("This graph shows DALY rate fluctuations between 1990 and
+      2017. Users can pick location and cause."),
     plotlyOutput(outputId = "line_graph")
   )
 )
@@ -160,8 +161,8 @@ summary_page <- tabPanel(
   )
 )
 
-
 ui <- fluidPage(
+  #includeCSS("style.css"),
   navbarPage(
     "Data Set Visualizations",
     intro_page,
@@ -171,5 +172,3 @@ ui <- fluidPage(
     summary_page
   )
 )
-
-
