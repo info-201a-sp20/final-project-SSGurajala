@@ -25,36 +25,38 @@ server <- function(input, output) {
 
 
 #Page 1 plot code 
+#Neoplasm data
 neoplasms_data_1 <- neoplasm %>%
   filter(year == "2017") %>%
   filter(metric == "Rate") %>%
   filter(measure == "DALYs (Disability-Adjusted Life Years)") %>% 
   select(location, val, measure, cause)
-
+#Cardiovascular data
 cardiovascular_data_1 <- cardiovascular %>%
   filter(year == "2017") %>%
   filter(metric == "Rate") %>%
   filter(measure == "DALYs (Disability-Adjusted Life Years)") %>% 
   select(location, val, measure, cause)
-
+#Chronic Respiratory Disease Data
 chronic_data_1 <- chronic_respiratory %>%
   filter(year == "2017") %>%
   filter(metric == "Rate") %>%
   filter(measure == "DALYs (Disability-Adjusted Life Years)") %>% 
   select(location, val, measure, cause)
-
+#SDI data
 sdi_data_1 <- sdi_data %>%
   filter(Year == "2017") %>%
   select(Location, SDI.Index.Value) %>%
   rename(location = Location)
-
+#Full join first two data sets
 dataset_prelim <- full_join(neoplasms_data_1, cardiovascular_data_1)
-
+#Create data set with all three causes
 dataset_second <- full_join(dataset_prelim, chronic_data_1)
-
+#Add SDI data
 plotting_data <- na.omit(left_join(dataset_second, sdi_data_1)) %>%
   select(val, SDI.Index.Value, measure, cause)
 
+#Code for Scatter Plot
 library(viridis)
 scatter_plot <- ggplot(plotting_data, aes(x = val, y = SDI.Index.Value)) +
     geom_point(aes(color = SDI.Index.Value)) +
@@ -103,5 +105,32 @@ histogram <- ggplot(plot_2_data, aes(x = val)) +
   ) +
   theme_bw()
 
+#Page 3 Plot Code 
 
+#neoplasm_data
+neoplasm_data_3 <- neoplasm %>%
+  filter(measure == "DALYs (Disability-Adjusted Life Years)") %>%
+  filter(metric == "Rate") %>%
+  select(year, val, cause, location)
+#cardiovascular data
+cardiovascular_data_3 <- cardiovascular %>%
+  filter(measure == "DALYs (Disability-Adjusted Life Years)") %>%
+  filter(metric == "Rate") %>%
+  select(year, val, cause, location)
+#chronic resp. data
+chronic_data_3 <- chronic_respiratory %>%
+  filter(measure == "DALYs (Disability-Adjusted Life Years)") %>%
+  filter(metric == "Rate") %>%
+  select(year, val, cause, location)
 
+#initial full join
+plot_3_data_prelim <- full_join(neoplasm_data_3, cardiovascular_data_3)
+#final plotting dataset
+plot_3_data <- full_join(plot_3_data_prelim, chronic_data_3)
+
+#Code for plot 
+line_graph <- ggplot(plot_3_data, aes(x = year, y = val)) +
+  geom_line(color = "red", size = 1.5) +
+  theme_bw() +
+  labs(x = "Year", y = "DALY Rate per 100,000",
+       title = "DALY Rate per 100,000 from 1990 - 2017")
