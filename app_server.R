@@ -12,7 +12,7 @@ server <- function(input, output) {
     #Code for Scatter Plot
     library(viridis)
     scatter_plot <- ggplot(plot_1_data_output, aes(x = val, y = SDI.Index.Value)) +
-      geom_point(aes(color = SDI.Index.Value)) +
+      geom_point(aes(color = SDI.Index.Value, text = text)) +
       scale_color_viridis(option = "inferno") +
       scale_x_continuous(name = "Rate per 100,000 population") +
       scale_y_continuous(name = "SDI Index Value") +
@@ -34,7 +34,7 @@ server <- function(input, output) {
         theme_bw()
       }
     
-    return(scatter_plot)
+    return(ggplotly(scatter_plot, tooltip = "text"))
   })
   
   
