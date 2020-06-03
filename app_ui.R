@@ -106,19 +106,38 @@ summary_page <- tabPanel(
     h5(strong("How does disease burden for cardiovascular disease, chronic respiratory
            disease, and neoplasms change over time?")),
     h3("Income Level/Financial Stability V.S. Disease Burden Globally"),
-    p("As shown in the graph below, most locations that have relatively lower
-      rate of population for three diseases have relatively higher SDI values.
-      Such observation shows that the rate of patients with those three diseases is
-      lower in area with more advanced development."),
+    p("In general, we found that most points form scatter plot gather together
+      at the upper left corner (higher SDI Index Value and lower rate of
+      population). As shown in the graph below, most locations that have
+      relatively lower rate of population for three diseases have relatively
+      higher SDI values. Such observation shows that the rate of patients
+      with those three diseases is lower in area with more advanced
+      development."),
     img(src = "/images/summary_image_1.png", alt = "plot 1"),
-    h3("Differences between three diseases on impacts in global scale"),
-    p("In the graph "),
+    h3("Differences between Three Diseases on Impacts in Global Scale"),
+    p("With respect to years, each disease has its own pattern on density of
+      DALY rate. In specific, the peek of density of DALY rate of cardiovascular
+      disease is around 5000 DALY rate per 100,000 (2000 DALY rate for chronic
+      respiratory diseases and two peeks at 2500 and 5000 DALY rate for
+      neoplasms). At the graph below, which we selected year 2017, three plots
+      clearly show the pattern we described. Such patterns infer that although
+      fewer people get chronic respiratory diseases than two other diseases,
+      their lives are much shorter than patients get influenced by two other
+      diseases."),
     img(src = "/images/summary_image_2.png", alt = "plot 2"),
-    h3("changes of three diseases over time"),
-    p(""),
+    h3("Changes of Three Diseases Over Time"),
+    p("Generally, lines from plots are nearly horizontal, meaning that changes
+      for the impact of three diseases were little from 1990 to 2017. As the
+      graph shown below, the DALY rate of cardiovascular diseases and chronic
+      respiratory diseases gained subtle decrease, while DALY rate of
+      neoplasm did not change too much. Nevertheless, due to the lines position,
+      we conclude that people have highest rate for getting cardiovascular
+      diseases and lowest rate for getting chronic respiratory diseases among
+      these three diseases."),
     img(src = "/images/summary_image_3.png", alt = "plot 3")
   )
 )
+
 
 ui <- fluidPage(
   navbarPage(
