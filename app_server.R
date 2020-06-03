@@ -1,136 +1,112 @@
-library(dplyr)
-library(shiny)
-library(plotly)
-
-# Read in data
-neoplasm <- read.csv("data/neoplasm/neoplasms_data.csv",
-                    stringsAsFactors = FALSE)
-
-cardiovascular <- read.csv(
-  "data/cardiovascular disease/cardiovascular_disease_data.csv",
-           stringsAsFactors = FALSE)
-
-chronic_respiratory <- read.csv(
-  "data/chronic respiratory disease/chronic_respiratory_disease_data.csv",
-                    stringsAsFactors = FALSE)
-
-sdi_data <- read.csv("data/sdi/data_sdi.csv", stringsAsFactors = FALSE)
+source("visualization_data.R")
 
 # Define server function
 server <- function(input, output) {
-  output$summary <- renderTable( {
-    return()
+  
+  #Page 1 plot code 
+  output$scatter_plot <- renderPlot({
+    
+    plot_1_data_output <- filter(plot_1_data, cause == input$Cause_1) %>%
+    filter(SDI.Index.Value > input$SDI[1] & SDI.Index.Value < input$SDI[2])
+    
+    #Code for Scatter Plot
+    library(viridis)
+    scatter_plot <- ggplot(plot_1_data_output, aes(x = val, y = SDI.Index.Value)) +
+      geom_point(aes(color = SDI.Index.Value)) +
+      scale_color_viridis(option = "inferno") +
+      scale_x_continuous(name = "Rate per 100,000 population") +
+      scale_y_continuous(name = "SDI Index Value") +
+      ggtitle("DALY Rate vs SDI Index Value
+            for 402 locations in 2017") +
+      theme_bw()
+    if(input$boxinput1) {
+      plot_1_data_output_box <- plot_1_data %>%
+        filter(SDI.Index.Value > input$SDI[1] &
+                 SDI.Index.Value < input$SDI[2])
+      scatter_plot <- ggplot(plot_1_data_output_box, aes(x = val, y = SDI.Index.Value)) +
+        geom_point(aes(color = SDI.Index.Value)) +
+        scale_color_viridis(option = "inferno") +
+        scale_x_continuous(name = "Rate per 100,000 population") +
+        scale_y_continuous(name = "SDI Index Value") +
+        ggtitle("DALY Rate vs SDI Index Value
+            for 402 locations in 2017") +
+        facet_wrap(~cause) +
+        theme_bw()
+      }
+    
+    return(scatter_plot)
+  })
+  
+  
+  #Page 2 Plot Code
+  output$histogram <- renderPlot({
+    
+    plot_2_data_output <- plot_2_data %>%
+      filter(year == input$Year & cause == input$Cause_2)
+    
+    #Code to make histogram 
+    histogram <- ggplot(plot_2_data_output, aes(x = val)) +
+      geom_histogram(
+        binwidth = 200, aes(y = ..density..),
+        color = "black", fill = "white"
+      ) +
+      geom_density(alpha = 0.3, fill = "#FF6666") +
+      geom_vline(aes(xintercept = mean(val))) +
+      labs(
+        title = "Density Distribution of DALY Rate per 100,000",
+        x = "DALY rate per 100,000",
+        y = "Density"
+      ) +
+      theme_bw()
+    if(input$boxinput2) {
+      plot_2_data_output_box <- plot_2_data %>%
+        filter(year == input$Year)
+      histogram <- ggplot(plot_2_data_output_box, aes(x = val)) +
+        geom_histogram(
+          binwidth = 200, aes(y = ..density..),
+          color = "black", fill = "white"
+        ) +
+        geom_density(alpha = 0.3, fill = "#FF6666") +
+        geom_vline(aes(xintercept = mean(val))) +
+        labs(
+          title = "Density Distribution of DALY Rate per 100,000",
+          x = "DALY rate per 100,000",
+          y = "Density"
+        ) +
+        facet_wrap(~cause) +
+        theme_bw()
+        
+    }
+    return(histogram)
+  })
+  
+  #Page 3 Plot Code 
+  output$line_graph <- renderPlot({
+    
+    plot_3_data_output <- plot_3_data %>%
+      filter(location == input$Location & cause == input$Cause_3)
+    
+    #Code for plot 
+    line_graph <- ggplot(plot_3_data_output, aes(x = year, y = val)) +
+      geom_line(color = "red", size = 1.5) +
+      theme_bw() +
+      labs(x = "Year", y = "DALY Rate per 100,000",
+           title = "DALY Rate per 100,000 from 1990 - 2017")
+    if(input$boxinput3) {
+      plot_3_data_output_box <- plot_3_data %>%
+        filter(location == input$Location)
+      line_graph <- ggplot(plot_3_data_output_box, aes(x = year, y = val)) +
+        geom_line(color = "red", size = 1.5) +
+        labs(x = "Year", y = "DALY Rate per 100,000",
+             title = "DALY Rate per 100,000 from 1990 - 2017") +
+        facet_wrap(~cause) +
+        theme_bw()
+    }
+    return(line_graph)
   })
 }
+  
 
 
-#Page 1 plot code 
-#Neoplasm data
-neoplasms_data_1 <- neoplasm %>%
-  filter(year == "2017") %>%
-  filter(metric == "Rate") %>%
-  filter(measure == "DALYs (Disability-Adjusted Life Years)") %>% 
-  select(location, val, measure, cause)
-#Cardiovascular data
-cardiovascular_data_1 <- cardiovascular %>%
-  filter(year == "2017") %>%
-  filter(metric == "Rate") %>%
-  filter(measure == "DALYs (Disability-Adjusted Life Years)") %>% 
-  select(location, val, measure, cause)
-#Chronic Respiratory Disease Data
-chronic_data_1 <- chronic_respiratory %>%
-  filter(year == "2017") %>%
-  filter(metric == "Rate") %>%
-  filter(measure == "DALYs (Disability-Adjusted Life Years)") %>% 
-  select(location, val, measure, cause)
-#SDI data
-sdi_data_1 <- sdi_data %>%
-  filter(Year == "2017") %>%
-  select(Location, SDI.Index.Value) %>%
-  rename(location = Location)
-#Full join first two data sets
-dataset_prelim <- full_join(neoplasms_data_1, cardiovascular_data_1)
-#Create data set with all three causes
-dataset_second <- full_join(dataset_prelim, chronic_data_1)
-#Add SDI data
-plotting_data <- na.omit(left_join(dataset_second, sdi_data_1)) %>%
-  select(val, SDI.Index.Value, measure, cause)
 
-#Code for Scatter Plot
-library(viridis)
-scatter_plot <- ggplot(plotting_data, aes(x = val, y = SDI.Index.Value)) +
-    geom_point(aes(color = SDI.Index.Value)) +
-    scale_color_viridis(option = "inferno") +
-    scale_x_continuous(name = "Rate per 100,000 population") +
-    scale_y_continuous(name = "SDI Index Value") +
-    ggtitle("Disease Burden vs SDI Index Value
-            for 402 locations in 2017") +
-    theme_bw()
 
-#Page 2 Plot Code
-
-#Neoplasm_data
-neoplasms_data_2 <- neoplasm %>% 
-  filter(measure == "DALYs (Disability-Adjusted Life Years)") %>%
-  filter(metric == "Rate") %>%
-  select(val, cause, year)
-#Cardiovascular Data
-cardiovascular_data_2 <- cardiovascular %>% 
-  filter(measure == "DALYs (Disability-Adjusted Life Years)") %>%
-  filter(metric == "Rate") %>%
-  select(val, cause, year)
-#Chronic Respiratory Disease Data
-chronic_data_2 <- chronic_respiratory %>% 
-  filter(measure == "DALYs (Disability-Adjusted Life Years)") %>%
-  filter(metric == "Rate") %>%
-  select(val, cause, year)
-
-#full joining neoplasm and cardiovascular data   
-plot_2_data_prelim <- full_join(neoplasms_data_2, cardiovascular_data_2)
-#full joining neoplasm + cardiovascular data with chronic resp. disease data
-plot_2_data <- full_join(plot_2_data_prelim, chronic_data_2)
-
-#Code to make histogram 
-histogram <- ggplot(plot_2_data, aes(x = val)) +
-  geom_histogram(
-    binwidth = 200, aes(y = ..density..),
-    color = "black", fill = "white"
-  ) +
-  geom_density(alpha = 0.3, fill = "#FF6666") +
-  geom_vline(aes(xintercept = mean(val))) +
-  labs(
-    title = "Global Density Distribution of DALY Rate per 100,000",
-    x = "DALY rate per 100,000",
-    y = "Density"
-  ) +
-  theme_bw()
-
-#Page 3 Plot Code 
-
-#neoplasm_data
-neoplasm_data_3 <- neoplasm %>%
-  filter(measure == "DALYs (Disability-Adjusted Life Years)") %>%
-  filter(metric == "Rate") %>%
-  select(year, val, cause, location)
-#cardiovascular data
-cardiovascular_data_3 <- cardiovascular %>%
-  filter(measure == "DALYs (Disability-Adjusted Life Years)") %>%
-  filter(metric == "Rate") %>%
-  select(year, val, cause, location)
-#chronic resp. data
-chronic_data_3 <- chronic_respiratory %>%
-  filter(measure == "DALYs (Disability-Adjusted Life Years)") %>%
-  filter(metric == "Rate") %>%
-  select(year, val, cause, location)
-
-#initial full join
-plot_3_data_prelim <- full_join(neoplasm_data_3, cardiovascular_data_3)
-#final plotting dataset
-plot_3_data <- full_join(plot_3_data_prelim, chronic_data_3)
-
-#Code for plot 
-line_graph <- ggplot(plot_3_data, aes(x = year, y = val)) +
-  geom_line(color = "red", size = 1.5) +
-  theme_bw() +
-  labs(x = "Year", y = "DALY Rate per 100,000",
-       title = "DALY Rate per 100,000 from 1990 - 2017")
