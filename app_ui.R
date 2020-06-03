@@ -16,7 +16,7 @@ intro_page <- tabPanel(
       burden, and factors in years lost to ill-health, disability or early death. 
       This data was taken from the GHDx data selecting tool for the 2017 IHME Global Burden of Disease Study."),
 
-    img(src = "images/mortality-from-ncds-sdgs.png", alt = "mortality map"),
+    img(src = "images/mortality-from-ncds-sdgs.png", alt = "mortality map")
   )
 )
 
@@ -131,7 +131,7 @@ summary_page <- tabPanel(
       higher SDI values. Such observation shows that the rate of patients
       with those three diseases is lower in area with more advanced
       development."),
-    img(src = "images/summary_image_1.png", alt = "plot 1"),
+    img(src = "images/summary-1.png", alt = "plot 1"),
     h3("Differences between Three Diseases on Impacts in Global Scale"),
     p("With respect to years, each disease has its own pattern on density of
       DALY rate. In specific, the peek of density of DALY rate of cardiovascular
@@ -142,7 +142,7 @@ summary_page <- tabPanel(
       fewer people get chronic respiratory diseases than two other diseases,
       their lives are much shorter than patients get influenced by two other
       diseases."),
-    img(src = "images/summary_image_2.png", alt = "plot 2"),
+    img(src = "images/summary-2.png", alt = "plot 2"),
     h3("Changes of Three Diseases Over Time"),
     p("Generally, lines from plots are nearly horizontal, meaning that changes
       for the impact of three diseases were little from 1990 to 2017. As the
@@ -152,7 +152,7 @@ summary_page <- tabPanel(
       we conclude that people have highest rate for getting cardiovascular
       diseases and lowest rate for getting chronic respiratory diseases among
       these three diseases."),
-    img(src = "images/summary_image_3.png", alt = "plot 3")
+    img(src = "images/summary-3.png", alt = "plot 3")
   )
 )
 

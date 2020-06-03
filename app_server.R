@@ -63,9 +63,9 @@ server <- function(input, output) {
         filter(year == input$Year)
       histogram <- ggplot(plot_2_data_output_box, aes(x = val)) +
         geom_histogram(
-          binwidth = 200, aes(y = ..density..,
+          binwidth = 200, aes(y = ..density..),
           color = "black", fill = "white"
-        )) +
+        ) +
         geom_density(alpha = 0.3, fill = "#FF6666") +
         geom_vline(aes(xintercept = mean(val))) +
         labs(
@@ -74,8 +74,8 @@ server <- function(input, output) {
           y = "Density"
         ) +
         facet_wrap(~cause) +
-        theme_bw()
-        
+        theme_bw() + 
+        theme(legend.position = "none")
     }
     return(histogram)
   })
