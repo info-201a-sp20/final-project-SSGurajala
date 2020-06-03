@@ -4,13 +4,14 @@ source("visualization_data.R")
 server <- function(input, output) {
   
   #Page 1 plot code 
-  output$scatter_plot <- renderPlot({
+  output$scatter_plot <- renderPlotly({
     
     plot_1_data_output <- filter(plot_1_data, cause == input$Cause_1) %>%
     filter(SDI.Index.Value > input$SDI[1] & SDI.Index.Value < input$SDI[2])
     
     #Code for Scatter Plot
     library(viridis)
+    library(plotly)
     scatter_plot <- ggplot(plot_1_data_output, aes(x = val, y = SDI.Index.Value)) +
       geom_point(aes(color = SDI.Index.Value, text = text)) +
       scale_color_viridis(option = "inferno") +
@@ -33,7 +34,6 @@ server <- function(input, output) {
         facet_wrap(~cause) +
         theme_bw()
       }
-    
     return(ggplotly(scatter_plot, tooltip = "text"))
   })
   

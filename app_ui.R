@@ -38,7 +38,7 @@ first_page <- tabPanel(
     )
   ),
   mainPanel(
-    plotOutput(outputId = "scatter_plot")
+    plotlyOutput(outputId = "scatter_plot")
   )
 )
   

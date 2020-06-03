@@ -49,9 +49,9 @@ sdi_data <- read.csv("data/sdi/data_sdi.csv", stringsAsFactors = FALSE)
   #Add SDI data
   plot_1_data <- na.omit(left_join(dataset_second, sdi_data_1)) %>%
     select(val, SDI.Index.Value, measure, cause, location) %>%
-    mutate(text = paste("location" = location, "\n",
-                        "SDI Value" = SDI.Index.Value, "\n",
-                        "DALY Rate" = val))
+    mutate(text = paste("location:", location, "\n",
+                        "SDI Value:", SDI.Index.Value, "\n",
+                        "DALY Rate:", val))
 
 #Page 2 Plot Code
   #Neoplasm_data
