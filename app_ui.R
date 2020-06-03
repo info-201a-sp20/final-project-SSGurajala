@@ -4,7 +4,29 @@ intro_page <- tabPanel(
   title = "Intro",
   mainPanel(
     h1("Project Overview"),
-    p(""),
+    p("The acute nature of infectious disease often draws our attention because of 
+      the imminent pain and suffering they bring to millions around the globe, as 
+      seen by the current Coronavirus pandemic. However, the physical and mental 
+      impact of non-infectious chronic diseases can also be overwhelming to patients, 
+      and should not be ignored. In our project, we focused primarily on how chronic 
+      non-infectious diseases have infected or continue to infect the lives of people 
+      around the world. So we picked 3 diseases: cardiovascular disease, respitory 
+      disease, and neoplasm, and raised three questions that we are interested in 
+      exploring accordingly."),
+    h3("Questions Raised:"),
+    h4("How does income level/financial stability track with disease burden globally?"),
+    p("We want to use the dataset's metric of Social Demographic Index (SDI) to determine 
+      income level and general prosperity and pair that with disability-adjusted life years, 
+      years of life lost to disease, and mortality data to see trends in disease burden and prosperity"), 
+    h4("How does disease burden differ between cardiovascular disease, chronic respiratory disease, 
+       and neoplasms globally?"),
+    p("We want to use the metrics of disability-adjusted life years, years of life lost to disease, 
+      and mortality data to assess disease burden of each disease at the data's most current time, 2017, 
+      and do comparative analyses between the results for each of these diseases."),
+    h4("How does disease burden for cardiovascular disease, chronic respiratory disease, 
+       and neoplasms change over time?"),
+    p("We want to track disease burden over time by analyzing changes in disability-adjusted life years, 
+      years of life lost, and mortality data for each of these diseases over the period 1990 to 2017."),
     h3("Cardiovascular Disease:"),
     img(src = "/images/cardiovascular_disease.jpg", alt = "Cardiovascular Disease"),
     h3("Respiratory Disease:"),
