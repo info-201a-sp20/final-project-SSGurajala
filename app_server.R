@@ -63,9 +63,9 @@ server <- function(input, output) {
         filter(year == input$Year)
       histogram <- ggplot(plot_2_data_output_box, aes(x = val)) +
         geom_histogram(
-          binwidth = 200, aes(y = ..density..),
+          binwidth = 200, aes(y = ..density..,
           color = "black", fill = "white"
-        ) +
+        )) +
         geom_density(alpha = 0.3, fill = "#FF6666") +
         geom_vline(aes(xintercept = mean(val))) +
         labs(
@@ -81,7 +81,7 @@ server <- function(input, output) {
   })
   
   #Page 3 Plot Code 
-  output$line_graph <- renderPlot({
+  output$line_graph <- renderPlotly({
     
     plot_3_data_output <- plot_3_data %>%
       filter(location == input$Location & cause == input$Cause_3)

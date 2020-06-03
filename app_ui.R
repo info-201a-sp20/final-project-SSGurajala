@@ -92,7 +92,7 @@ third_page <- tabPanel(
     )
   ),
   mainPanel(
-    plotOutput(outputId = "line_graph")
+    plotlyOutput(outputId = "line_graph")
   )
 )
 

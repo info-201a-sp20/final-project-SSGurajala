@@ -49,7 +49,7 @@ sdi_data <- read.csv("data/sdi/data_sdi.csv", stringsAsFactors = FALSE)
   #Add SDI data
   plot_1_data <- na.omit(left_join(dataset_second, sdi_data_1)) %>%
     select(val, SDI.Index.Value, measure, cause, location) %>%
-    mutate(text = paste("location:", location, "\n",
+    mutate(text = paste("Location:", location, "\n",
                         "SDI Value:", SDI.Index.Value, "\n",
                         "DALY Rate:", val))
 
@@ -95,4 +95,7 @@ sdi_data <- read.csv("data/sdi/data_sdi.csv", stringsAsFactors = FALSE)
   #initial full join
   plot_3_data_prelim <- full_join(neoplasm_data_3, cardiovascular_data_3)
   #final plotting dataset
-  plot_3_data <- full_join(plot_3_data_prelim, chronic_data_3)
+  plot_3_data <- full_join(plot_3_data_prelim, chronic_data_3) %>%
+    mutate(text = paste("Location:", location, "\n",
+                        "Year:", year, "\n",
+                        "DALY Rate:", val))
