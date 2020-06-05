@@ -158,7 +158,7 @@ summary_page <- tabPanel(
 )
 
 ui <- fluidPage(
-  theme = "styling.css",
+  theme = "stylecss.css",
   navbarPage(
     "Chronic Disease Data Visualization",
     intro_page,
