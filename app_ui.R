@@ -16,7 +16,7 @@ intro_page <- tabPanel(
       burden, and factors in years lost to ill-health, disability or early death. 
       This data was taken from the GHDx data selecting tool for the 2017 IHME Global Burden of Disease Study."),
 
-    img(src = "mortality-from-ncds-sdgs.png", alt = "mortality map")
+    img(src = "images/mortality-from-ncds-sdgs.png", alt = "mortality map")
   )
 )
 
@@ -123,6 +123,7 @@ summary_page <- tabPanel(
            chronic respiratory disease, and neoplasms globally?")),
     h5(strong("How does disease burden for cardiovascular disease, chronic respiratory
            disease, and neoplasms change over time?")),
+    br(),
     h3("Income Level/Financial Stability V.S. Disease Burden Globally"),
     p("In general, we found that most points form scatter plot gather together
       at the upper left corner (higher SDI Index Value and lower rate of
@@ -131,7 +132,7 @@ summary_page <- tabPanel(
       higher SDI values. Such observation shows that the rate of patients
       with those three diseases is lower in area with more advanced
       development."),
-    img(src = "summary-1.PNG", alt = "plot 1"),
+    img(src = "images/summary-1.PNG", alt = "plot 1"),
     h3("Differences between Three Diseases on Impacts in Global Scale"),
     p("With respect to years, each disease has its own pattern on density of
       DALY rate. In specific, the peek of density of DALY rate of cardiovascular
@@ -142,7 +143,7 @@ summary_page <- tabPanel(
       fewer people get chronic respiratory diseases than two other diseases,
       their lives are much shorter than patients get influenced by two other
       diseases."),
-    img(src = "summary-2.PNG", alt = "plot 2"),
+    img(src = "images/summary-2.PNG", alt = "plot 2"),
     h3("Changes of Three Diseases Over Time"),
     p("Generally, lines from plots are nearly horizontal, meaning that changes
       for the impact of three diseases were little from 1990 to 2017. As the
@@ -152,14 +153,14 @@ summary_page <- tabPanel(
       we conclude that people have highest rate for getting cardiovascular
       diseases and lowest rate for getting chronic respiratory diseases among
       these three diseases."),
-    img(src = "summary-3.PNG", alt = "plot 3")
+    img(src = "images/summary-3.PNG", alt = "plot 3")
   )
 )
 
 ui <- fluidPage(
-  #includeCSS("style.css"),
+  theme = "style.css",
   navbarPage(
-    "Data Set Visualizations",
+    "Chronic Disease Data Visualization",
     intro_page,
     first_page,
     second_page,
