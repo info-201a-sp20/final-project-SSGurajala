@@ -22,7 +22,7 @@ intro_page <- tabPanel(
 
 first_page <- tabPanel(
   title = "SDI and DALYs",
-  h1("How does income level/financial stability track with disease burden globally?"),
+  h2("How does income level/financial stability track with disease burden globally?"),
   sidebarPanel(
     h3("Input:"),
     feature_input <- selectInput(
@@ -54,7 +54,7 @@ first_page <- tabPanel(
 
 second_page <- tabPanel(
   title = "Distribution of DALY Rate",
-  h1("How does disease burden differ between cardiovascular disease, chronic respiratory disease, 
+  h2("How does disease burden differ between cardiovascular disease, chronic respiratory disease, 
        and neoplasms globally?"),
   sidebarPanel(
     h3("Input:"),
@@ -85,7 +85,7 @@ second_page <- tabPanel(
 
 third_page <- tabPanel(
   title = "DALY by Location, 1990-2017",
-  h1("How does disease burden for cardiovascular disease, chronic respiratory disease, 
+  h2("How does disease burden for cardiovascular disease, chronic respiratory disease, 
        and neoplasms change over time?"),
   sidebarPanel(
     h3("Input:"),
@@ -117,7 +117,7 @@ third_page <- tabPanel(
 summary_page <- tabPanel(
   title = "Summary",
   mainPanel(
-    h2("Our Data Driven Questions"),
+    h1("Our Data-Driven Questions"),
     h5(strong("How does income level/financial stability track with disease burden globally?")),
     h5(strong("How does disease burden differ between cardiovascular disease,
            chronic respiratory disease, and neoplasms globally?")),
@@ -158,7 +158,7 @@ summary_page <- tabPanel(
 )
 
 ui <- fluidPage(
-  theme = "style.css",
+  theme = "styling.css",
   navbarPage(
     "Chronic Disease Data Visualization",
     intro_page,
