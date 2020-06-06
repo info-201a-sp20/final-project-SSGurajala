@@ -2,6 +2,7 @@ library(dplyr)
 library(shiny)
 library(ggplot2)
 library(plotly)
+library(viridis)
 
 # Read in data
 neoplasm <- read.csv("data/neoplasm/neoplasms_data.csv",

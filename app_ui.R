@@ -15,26 +15,22 @@ intro_page <- tabPanel(
       exploring accordingly. The disability-adjusted life year (DALY) is our primary metric for disease 
       burden, and factors in years lost to ill-health, disability or early death. 
       This data was taken from the GHDx data selecting tool for the 2017 IHME Global Burden of Disease Study."),
-
+    tags$a(href = "http://ghdx.healthdata.org/gbd-results-tool",
+           "Global Disease Burden 2017 Study Data Source"),
     img(src = "images/mortality-from-ncds-sdgs.png", alt = "mortality map")
   )
 )
 
 first_page <- tabPanel(
-  title = "SDI and DALYs",
+  title = "Disease Burden V.S. Development",
   h2("How does income level/financial stability track with disease burden globally?"),
   sidebarPanel(
-    h3("Input:"),
+    h4("Input:"),
     feature_input <- selectInput(
       inputId = "Cause_1",
       label = "Selected Cause",
       choices = unique(plot_1_data$cause),
       selected = "Neoplasm"
-    ),
-    checkboxInput(
-      inputId = "boxinput1",
-      label = "Show All Causes",
-      value = FALSE
     ),
     SDI_input <- sliderInput(
       inputId = "SDI",
@@ -45,9 +41,13 @@ first_page <- tabPanel(
     )
   ),
   mainPanel(
-    p("This is a scatter plot that shows the correlation between
-      SDI and population based on location. Users can pick a 
-      cause and SDI range."),
+    p("Socio-demographic Index (SDI) is an aggregate metric for
+    development that factors in fertility, educational attainment,
+    and income per capita. This scatter plot explores the 
+    correlation between SDI and the DALY rate per 100,000 people 
+    to identify possible impacts of a country's development on
+    disease burden. Users can pick the disease and SDI range of 
+    interest."),
     plotlyOutput(outputId = "scatter_plot")
   )
 )
@@ -57,17 +57,12 @@ second_page <- tabPanel(
   h2("How does disease burden differ between cardiovascular disease, chronic respiratory disease, 
        and neoplasms globally?"),
   sidebarPanel(
-    h3("Input:"),
+    h4("Input:"),
     year_input <- selectInput(
       inputId = "Year",
       label = "Selected Year",
       choices = unique(plot_2_data$year),
       selected = 2017
-    ),
-    checkboxInput(
-      inputId = "boxinput2",
-      label = "Show All Causes",
-      value = FALSE
     ),
     feature_input <- selectInput(
       inputId = "Cause_2",
@@ -77,28 +72,27 @@ second_page <- tabPanel(
     )
   ),
   mainPanel(
-    p("This is a density distribution of DALY rates. Users can
-      pick a year and cause."),
-    plotOutput(outputId = "histogram")
+    p("This visualization seeks to understand the differences in
+      experienced disease burden for the three diseases globally.
+      This is accomplished by creating a histogram of DALY rate 
+      values of all areas supplied in the Global Burden of
+      Disease study. Users can supply their year and disease
+      of interest."),
+    plotlyOutput(outputId = "histogram")
   )
 )
 
 third_page <- tabPanel(
   title = "DALY by Location, 1990-2017",
-  h2("How does disease burden for cardiovascular disease, chronic respiratory disease, 
-       and neoplasms change over time?"),
+  h2("How has disease burden from cardiovascular disease, chronic
+  respiratory disease, and neoplasms changed over time?"),
   sidebarPanel(
-    h3("Input:"),
+    h4("Input:"),
     location_input <- selectInput(
       inputId = "Location",
       label = "Selected Location",
       choices = unique(plot_3_data$location),
       selected = "Global"
-    ),
-    checkboxInput(
-      inputId = "boxinput3",
-      label = "Show All Causes",
-      value = FALSE
     ),
     feature_input <- selectInput(
       inputId = "Cause_3",
@@ -108,8 +102,11 @@ third_page <- tabPanel(
     )
   ),
   mainPanel(
-    p("This graph shows DALY rate fluctuations between 1990 and
-      2017. Users can pick location and cause."),
+    p("This graph seeks to understand how disease burden for these
+    three diseases has changed over the time period provided by the
+    study. This is accomplished by using a line graph to show 
+    fluctuations in DALY rate per 100,000 people from 1990 to 2017.
+    Users can provide the location and cause of their choosing."),
     plotlyOutput(outputId = "line_graph")
   )
 )
@@ -124,43 +121,48 @@ summary_page <- tabPanel(
     h5(strong("How does disease burden for cardiovascular disease, chronic respiratory
            disease, and neoplasms change over time?")),
     br(),
-    h3("Income Level/Financial Stability V.S. Disease Burden Globally"),
-    p("In general, we found that most points form scatter plot gather together
-      at the upper left corner (higher SDI Index Value and lower rate of
-      population). As shown in the graph below, most locations that have
-      relatively lower rate of population for three diseases have relatively
-      higher SDI values. Such observation shows that the rate of patients
-      with those three diseases is lower in area with more advanced
-      development."),
-    img(src = "images/summary-1.PNG", alt = "plot 1"),
-    h3("Differences between Three Diseases on Impacts in Global Scale"),
-    p("With respect to years, each disease has its own pattern on density of
-      DALY rate. In specific, the peek of density of DALY rate of cardiovascular
-      disease is around 5000 DALY rate per 100,000 (2000 DALY rate for chronic
-      respiratory diseases and two peeks at 2500 and 5000 DALY rate for
-      neoplasms). At the graph below, which we selected year 2017, three plots
-      clearly show the pattern we described. Such patterns infer that although
-      fewer people get chronic respiratory diseases than two other diseases,
-      their lives are much shorter than patients get influenced by two other
-      diseases."),
-    img(src = "images/summary-2.PNG", alt = "plot 2"),
-    h3("Changes of Three Diseases Over Time"),
-    p("Generally, lines from plots are nearly horizontal, meaning that changes
-      for the impact of three diseases were little from 1990 to 2017. As the
-      graph shown below, the DALY rate of cardiovascular diseases and chronic
-      respiratory diseases gained subtle decrease, while DALY rate of
-      neoplasm did not change too much. Nevertheless, due to the lines position,
-      we conclude that people have highest rate for getting cardiovascular
-      diseases and lowest rate for getting chronic respiratory diseases among
-      these three diseases."),
-    img(src = "images/summary-3.PNG", alt = "plot 3")
+    h3("General Development V.S. Global Disease Burden"),
+    p("In this graph, it seems that how developed a country is,
+      as measured by SDI Index Value, doesn't have much of a
+      bearing on the disease burden experienced per 100,000 people
+      in that country. An exception to this may be neoplasms,
+      which show a higher DALY rate at higher SDI Index values.
+      This insight actually suggests that disease burden isn't
+      particularly impacted by how developed a nation is, and that
+      by and large people globally experience disease burden equally."),
+    img(src = "images/scatter_plot_image.PNG", alt = "plot 1"),
+    h3("Differences in Disease Burden on a Global Scale"),
+    p("This chart reveals that countries experience the least
+      disease burden from chronic respiratory diseases, more
+      from cardiovascular diseases, and the most from neoplasms.
+      Neoplasms have a distinct bimodal distribution, suggesting
+      that countries either experience them at a lower rate
+      (around 2,000 DALYs per 100,000 people) or a higher rate 
+      (around 5,000 DALYs per 100,000 people). This insight
+      suggests that for neoplasms, an external factor may exist
+      that drives disease burden from neoplasms to be higher in
+      certain countries. An in-depth analysis of the countries
+      experiencing a higher disease burden from neoplasms could
+      lead to disease burden alleviation for those populations."),
+    img(src = "images/histogram_image.PNG", alt = "plot 2"),
+    h3("Fluctuations in Disease Burden (1990-2017)"),
+    p("These graphs reveal that, in general, global disease burden
+      for these three diseases have declined steadily from about
+      1990 to 2007. However, disease burden seems to be rising
+      again for cardiovascular disease and neoplasms since 2007.
+      This suggests that something is causing the prevalence and
+      morbidity of these disease to increase in recent years.
+      Further analysis would enable healthcare professionals and
+      policy experts to better understand and combat the rising
+      pressure these diseases are placing on population health."),
+    img(src = "images/line_graph_image.PNG", alt = "plot 3")
   )
 )
 
 ui <- fluidPage(
   theme = "stylecss.css",
   navbarPage(
-    "Chronic Disease Data Visualization",
+    "Chronic Disease Burden",
     intro_page,
     first_page,
     second_page,
