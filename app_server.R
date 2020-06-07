@@ -30,11 +30,22 @@ server <- function(input, output) {
       filter(year == input$Year & cause == input$Cause_2)
 
     # Code to make histogram
-    histogram <- plot_ly(x = plot_2_data_output$val, type = "histogram",
-                         marker = list(color = viridis_pal(option = "C", direction = -1)(50))) %>%
-      layout(title = "Global Frequency Distribution of DALYs", 
-             xaxis = list(title = "DALY Rate"),
-             yaxis = list(title = "# of Countries"))
+    histogram <- plot_ly(x = plot_2_data_output$val,
+                         type = "histogram",
+                         marker = list(color = viridis_pal(
+                             option = "C",
+                             direction = -1)(50)),
+                         ) %>%
+      layout(title = "Global Frequency Distribution of DALYs",
+             xaxis = list(title = "DALYs per 100,000 people"),
+             yaxis = list(title = "Frequency")) %>%
+      add_trace(
+        type = "histogram",
+        mode = "lines+markers",
+        hovertemplate =
+        "Bin Range: %{x}\nFrequency: %{y}",
+        showlegend = FALSE
+      )
     return(histogram)
   })
 
@@ -44,7 +55,7 @@ server <- function(input, output) {
       filter(location == input$Location & cause == input$Cause_3)
 
     # Code for plot
-    line_graph <- ggplot(plot_3_data_output, aes(x = year, y = val)) +
+    line_graph <- ggplot(plot_3_data_output, aes(x = Year, y = Rate)) +
       geom_line(color = "red", size = 1.5) +
       theme_bw() +
       labs(

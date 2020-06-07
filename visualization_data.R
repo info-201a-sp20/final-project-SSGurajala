@@ -54,13 +54,13 @@ dataset_second <- full_join(dataset_prelim, chronic_data_1)
 # Add SDI data
 plot_1_data <- na.omit(left_join(dataset_second, sdi_data_1)) %>%
   select(val, SDI.Index.Value, measure, cause, location) %>%
-  mutate(text = paste(
-    "Location:", location, "\n",
-    "SDI Value:", SDI.Index.Value, "\n",
-    "DALY Rate:", val
+  mutate(text = paste0(
+    "Location: ", location, "\n",
+    "SDI Value: ", SDI.Index.Value, "\n",
+    "DALY Rate: ", val
   ))
 
-# Page 2 Plot Code
+# Page 2 plot code
 # Neoplasm_data
 neoplasms_data_2 <- neoplasm %>%
   filter(measure == "DALYs (Disability-Adjusted Life Years)") %>%
@@ -82,7 +82,7 @@ plot_2_data_prelim <- full_join(neoplasms_data_2, cardiovascular_data_2)
 # full joining neoplasm + cardiovascular data with chronic resp. disease data
 plot_2_data <- full_join(plot_2_data_prelim, chronic_data_2)
 
-# Page 3 Plot Code
+# Page 3 plot code
 # neoplasm_data
 neoplasm_data_3 <- neoplasm %>%
   filter(measure == "DALYs (Disability-Adjusted Life Years)") %>%
@@ -103,8 +103,4 @@ chronic_data_3 <- chronic_respiratory %>%
 plot_3_data_prelim <- full_join(neoplasm_data_3, cardiovascular_data_3)
 # final plotting dataset
 plot_3_data <- full_join(plot_3_data_prelim, chronic_data_3) %>%
-  mutate(text = paste(
-    "Location:", location, "\n",
-    "Year:", year, "\n",
-    "DALY Rate:", val
-  ))
+  rename("Year" = year, "Rate" = val)

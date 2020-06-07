@@ -1,20 +1,21 @@
 body {
-  background-color: #D6F8D6;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: #f7f7d4;
+  font-family: "Courier New", Courier, monospace;
   font-size: 10px;
+  margin-bottom: 20px;
 }
 
 /*"Chronic Disease Data Visualization"*/
 .navbar-default .navbar-brand {
-  color: black;
-  font-size: 150%;
+  color: white;
+  font-size: 200%;
   line-height: 100%;
   height: auto;
 }
 
 .navbar-default .navbar-brand:focus, 
 .navbar-default .navbar-brand:hover {
-  color: black;
+  color: white;
 }
 
 /*other nav bar stuff*/
@@ -24,8 +25,10 @@ body {
 }
 
 .container-fluid nav {
-  background-color: #7FC6A4;
-  font-size: 150%;
+  font-weight: bold;
+  background-color: black;
+  color: white;
+  font-size: 200%;
   height: auto;
   width: 100%;
 	float: left;
@@ -35,70 +38,81 @@ body {
 }
 
 .navbar-default .navbar-nav>li>a {
-  color: black
+  color: white
 }
 
 .navbar-default .navbar-nav>li>a:focus, 
 .navbar-default .navbar-nav>li>a:hover {
   height: 200%;
-  color: #DDD;
+  color: white;
 }
 
 /*selected tab highlight*/
 .navbar-default .navbar-nav>.active>a, 
 .navbar-default .navbar-nav>.active>a:focus, 
 .navbar-default .navbar-nav>.active>a:hover {
-  background-color: #C3E1C3;
-  color: black;
+  background-color: #737373;
+  color: white;
   height: auto;
   vertical-align: middle;
   padding-top: 1.1em;
   padding-bottom: 1.1em;
 }
 
+#source {
+  float: left;
+  padding-left: 20px;
+  margin-bottom: 20px;
+  font-size: 2em;
+}
+
 img {
   width: 100%;
-  margin-bottom: 5%;
   padding-left: 20px;
 }
 
 p {
-  color: #5D737E;
+  color: #55505C;
   font-size: 200%;
   margin-bottom: 5%;
   padding-left: 20px;
 }
 
 h1 {
-  color: #55505C;
+  font-weight: bold;
+  color: black;
   font-size: 400%;
   padding-left: 20px;
 }
 
 h2 {
-  color: #55505C;
+  font-weight: bold;
+  color: black;
   margin-left: 15px;
   margin-right: 15px;
   padding-left: 20px;
 }
 
 h3 {
-  color: #55505C;
+  font-weight: bold;
+  color: black;
   padding-left: 20px;
 }
 
 h4 {
-  color: #55505C;
+  font-weight: bold;
+  color: black;
   padding-left: 10px;
 }
 
 h5 {
-  color: #55505C;
+  font-weight: bold;
+  color: black;
   padding-left: 20px;
 }
 
 /*input boxes*/
 .well { 
   margin-left: 20px;
-  background-color: #F3F7F3;
+  background-color: #fcfcfc;
 }
